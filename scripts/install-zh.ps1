@@ -1,4 +1,4 @@
-﻿﻿﻿# 一键部署 ROBO Pro Coding 简体中文汉化版（不修改 Microsoft Store 原版）
+﻿﻿# 一键部署 ROBO Pro Coding 简体中文汉化版（不修改 Microsoft Store 原版）
 # 用法: powershell -ExecutionPolicy Bypass -File scripts\install-zh.ps1 [-Force]
 param([switch]$Force)
 
@@ -101,8 +101,27 @@ start "" "%EXE%" --user-data-dir="%UDD%"
 $batPath = Join-Path $dest '启动-汉化版 ROBO Pro Coding.bat'
 Set-Content -Path $batPath -Value $bat -Encoding UTF8
 
+# 8) 桌面 + 开始菜单快捷方式：双击就进中文版，不用记路径、也别去点商店那个图标
+Step '创建快捷方式'
+$zhExe = Join-Path $dest 'app\ROBO Pro Coding.exe'
+$ws = New-Object -ComObject WScript.Shell
+foreach ($p in @(
+    (Join-Path ([Environment]::GetFolderPath('Desktop')) 'ROBO Pro Coding 中文.lnk'),
+    (Join-Path $env:APPDATA 'Microsoft\Windows\Start Menu\Programs\ROBO Pro Coding 中文.lnk')
+  )) {
+  $s = $ws.CreateShortcut($p)
+  $s.TargetPath = $zhExe
+  $s.Arguments = "--user-data-dir=`"$udd`""
+  $s.WorkingDirectory = (Join-Path $dest 'app')
+  $s.IconLocation = "$zhExe,0"
+  $s.Description = 'ROBO Pro Coding（中文界面）'
+  $s.Save()
+  Write-Host "    $p"
+}
+
 Write-Host ''
-Write-Host '完成。启动：' -ForegroundColor Green
+Write-Host '完成。启动（任选其一）：' -ForegroundColor Green
+Write-Host '  桌面 / 开始菜单的「ROBO Pro Coding 中文」'
 Write-Host "  $batPath"
 Write-Host '回滚：'
 Write-Host "  powershell -ExecutionPolicy Bypass -File scripts\uninstall-zh.ps1"
