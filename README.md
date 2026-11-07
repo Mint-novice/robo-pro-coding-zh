@@ -95,6 +95,25 @@ powershell -ExecutionPolicy Bypass -File .\scripts\uninstall-zh.ps1
 - 程序：`%LOCALAPPDATA%\Programs\ROBOProCoding-zh`
 - 用户数据：`%LOCALAPPDATA%\ROBOProCoding-zh-data`
 
+### 打开方式（很重要）
+
+装完后**桌面**和**开始菜单**会各多一个 **「ROBO Pro Coding 中文」** 图标，双击它就是中文版。
+
+> **Microsoft Store 里那个「ROBO Pro Coding」图标是官方原版，故意一个字节都没改，它永远没有中文。**
+> 想要中文，认准名字里带「中文」的那个图标。
+
+如果从带 `ELECTRON_RUN_AS_NODE=1` 的终端 / IDE 里启动，窗口会一闪就退——改用安装目录下的 `启动-汉化版 ROBO Pro Coding.bat`（它会先清掉这个变量）。
+
+### 没看到中文？
+
+| 现象 | 原因 / 处理 |
+|---|---|
+| 语言下拉里根本没有「中文」这一项 | 你开的是商店原版。改用桌面「ROBO Pro Coding 中文」图标 |
+| 开了中文版但界面还是英文 | `设置 → 语言 → 中文 → 应用`；或删掉 `%LOCALAPPDATA%\ROBOProCoding-zh-data` 再打开（会跟随系统语言） |
+| 双击一闪就退，退出码 9 | 环境里有 `ELECTRON_RUN_AS_NODE`，用上面的 `.bat` 启动 |
+| 想和原版同时开 | 可以，两份用各自独立的用户数据目录，互不影响 |
+| 想彻底删掉 | `scripts\uninstall-zh.ps1`，删两个目录；原版不受影响 |
+
 ---
 
 ## 六、已知边界（不是遗漏，是物理上不在这里）
