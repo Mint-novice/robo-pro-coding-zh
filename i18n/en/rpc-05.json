@@ -1,0 +1,434 @@
+[
+ {
+  "id": "FT_INPUT_PHOTO_RESISTOR_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_PHOTO_RESISTOR_GET_VALUE_TITLE",
+  "source": "%1 get photo resistor %2 value"
+ },
+ {
+  "id": "FT_INPUT_PHOTO_RESISTOR_GET_VALUE_TOOLTIP",
+  "source": "The resistance value at the input."
+ },
+ {
+  "id": "FT_INPUT_MINI_SWITCH_TITLE",
+  "source": "Mini switch"
+ },
+ {
+  "id": "FT_INPUT_MINI_SWITCH_IF_STATE_TITLE",
+  "source": "%1 is mini switch %2 %3"
+ },
+ {
+  "id": "FT_INPUT_MINI_SWITCH_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_MINI_SWITCH_GET_STATE_TITLE",
+  "source": "%1 get mini switch %2 state"
+ },
+ {
+  "id": "FT_INPUT_MINI_SWITCH_GET_STATE_TOOLTIP",
+  "source": "Returns the state of the mini switch."
+ },
+ {
+  "id": "FT_INPUT_REED_SWITCH_TITLE",
+  "source": "Reed contact"
+ },
+ {
+  "id": "FT_INPUT_REED_SWITCH_IF_STATE_TITLE",
+  "source": "%1 is reed contact %2 %3"
+ },
+ {
+  "id": "FT_INPUT_REED_SWITCH_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_REED_SWITCH_GET_STATE_TITLE",
+  "source": "%1 get reed contact %2 state"
+ },
+ {
+  "id": "FT_INPUT_REED_SWITCH_GET_STATE_TOOLTIP",
+  "source": "Returns the state of the reed contact."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GENERIC_TITLE",
+  "source": "Combi-sensor"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_TITLE",
+  "source": "Combi-sensor-10pin"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_TOOLTIP",
+  "source": "3 sensors in one component."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_6PIN_TITLE",
+  "source": "Combi-sensor-6pin"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_6PIN_TOOLTIP",
+  "source": "3 sensors in one component (6pin)."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_MAGNETOMETER_TITLE",
+  "source": "%1 init magnetometer %2 rate: %3 (Hz)"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_MAGNETOMETER_TOOLTIP",
+  "source": "Initialized the magnetometer of the combined senor."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_GYROMETER_TITLE",
+  "source": "%1 init gyrometer %2 range: %3 (°/s) bandwith: %4 (Hz) compensation: %5"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_GYROMETER_TOOLTIP",
+  "source": "Initialized the gyrometer of the combined senor."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_ACCELEROMETER_TITLE",
+  "source": "%1 init accelerometer %2 range: %3 (g) bandwith: %4 (Hz) compensation: %5"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_INIT_ACCELEROMETER_TOOLTIP",
+  "source": "Initialized the accelerometer of the combined senor."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_ACCELERATION_TITLE",
+  "source": "%1 is combi sensor %2 acceleration in %3 %4 %5"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_ACCELERATION_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_ACCELERATION_TITLE",
+  "source": "%1 get combi sensor %2 acceleration in %3"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_ACCELERATION_TOOLTIP",
+  "source": "Acceleration in the direction (in g)."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_MAGNETIC_FIELD_TITLE",
+  "source": "%1 is combi sensor %2 magnetic flux in %3 %4 %5"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_MAGNETIC_FIELD_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_MAGNETIC_FIELD_TITLE",
+  "source": "%1 get combi sensor %2 magnetic flux in %3"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_MAGNETIC_FIELD_TOOLTIP",
+  "source": "Magnetic flux density in the direction (in µT)."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_ROTATION_TITLE",
+  "source": "%1 is combi sensor %2 rotation in %3 %4 %5"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_IF_ROTATION_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_ROTATION_TITLE",
+  "source": "%1 get combi sensor %2 rotation in %3"
+ },
+ {
+  "id": "FT_I2C_COMBINED_SENSOR_GET_ROTATION_TOOLTIP",
+  "source": "Rotation speed around the axis (in ° / s)."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_TITLE",
+  "source": "Environmental sensor"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_TOOLTIP",
+  "source": "Measure humidity, air temperature, air pressure and air quality."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_HUMIDITY_TITLE",
+  "source": "%1 is environmental sensor %2 humidity %3 %4"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_HUMIDITY_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_HUMIDITY_TITLE",
+  "source": "%1 get environmental sensor %2 humidity"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_HUMIDITY_TOOLTIP",
+  "source": "Relative humidity measured by the environmental sensor (in%)."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_IAQ_TITLE",
+  "source": "%1 is environmental sensor %2 air quality %3 %4"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_IAQ_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_IAQ_TITLE",
+  "source": "%1 get environmental sensor %2 air quality as %3"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_IAQ_TOOLTIP",
+  "source": "Air quality calculated by the environmental sensor."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_PRESSURE_TITLE",
+  "source": "%1 is environmental sensor %2 pressure %3 %4"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_PRESSURE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_PRESSURE_TITLE",
+  "source": "%1 get environmental sensor %2 pressure"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_PRESSURE_TOOLTIP",
+  "source": "Air pressure measured by the environmental sensor (in hPa)."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_TEMPERATURE_TITLE",
+  "source": "%1 is environmental sensor %2 temperature %3 %4"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_TEMPERATURE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_TEMPERATURE_TITLE",
+  "source": "%1 get environmental sensor %2 temperature "
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_TEMPERATURE_TOOLTIP",
+  "source": "Temperature value measured by the environmental sensor."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_CALIBRATE_TITLE",
+  "source": "%1 calibrate environmental sensor %2"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_CALIBRATE_TOOLTIP",
+  "source": "Calibrates the environmental sensor."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_NEED_CALIBRATION_TITLE",
+  "source": "%1 is environmental sensor %2 need calibration"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_IF_NEED_CALIBRATION_TOOLTIP",
+  "source": "Returns true if the sensor needs to be calibrated, false otherwise."
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_ACCURACY_TITLE",
+  "source": "%1 get environmental sensor %2 accuracy"
+ },
+ {
+  "id": "FT_I2C_ENVIRONMENT_SENSOR_GET_ACCURACY_TOOLTIP",
+  "source": "Accuracy of the environmental sensor (0-3)."
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_TITLE",
+  "source": "Gesture sensor"
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_TOOLTIP",
+  "source": "Measure light, color, proximity and identify gestures."
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_ENABLE_TITLE",
+  "source": "%1 gesture sensor %2 %3 %4"
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_ENABLE_TOOLTIP",
+  "source": "Start the gesture sensor."
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_IF_COLOR_TITLE",
+  "source": "%1 is gesture sensor %2 color %3"
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_IF_TITLE",
+  "source": "%1 is gesture sensor %2 color %3 %4 %5"
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_IF_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_GET_TITLE",
+  "source": "%1 get gesture sensor %2 %3"
+ },
+ {
+  "id": "FT_I2C_GESTURE_SENSOR_GET_TOOLTIP",
+  "source": "Results measured with the gesture sensor."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_TITLE",
+  "source": "RGB color sensor"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_TOOLTIP",
+  "source": "Measure the colors red, green and blue."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_MEASURMENT_TIME_TITLE",
+  "source": "%1 set RGB color sensor %2 No %3 measurement time %4"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_MEASURMENT_TIME_TOOLTIP",
+  "source": "Sets the measurement time on the RGB color sensor."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_IF_COLOR_TITLE",
+  "source": "%1 is RGB color sensor %2 No %3 color %4"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_IF_TITLE",
+  "source": "%1 is RGB color sensor %2 No %3 color %4 %5 %6"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_IF_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_GET_TITLE",
+  "source": "%1 get RGB color sensor %2 No %3 %4"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_GET_TOOLTIP",
+  "source": "Results measured with the RGB color sensor."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_LED_TITLE",
+  "source": "%1 set RGB color sensor %2 No %3 led %4 brightness %5"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_LED_TOOLTIP",
+  "source": "Sets brightness of LED (0-255)."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_IF_LED_TITLE",
+  "source": "%1 is RGB color sensor %2 No %3 led %4 brightness %5 %6"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_LED_AUTO_OFF_TITLE",
+  "source": "%1 set RGB color sensor %2 all leds auto off in %3 seconds"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_SET_LED_AUTO_OFF_TOOLTIP",
+  "source": "Automatically turn off LEDs after x seconds."
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_GET_COUNT_TITLE",
+  "source": "%1 get RGB color sensor %2 count"
+ },
+ {
+  "id": "FT_I2C_RGB_COLOR_SENSOR_GET_COUNT_TOOLTIP",
+  "source": "Returns the number of RGB color sensors."
+ },
+ {
+  "id": "FT_VOICE_CONTROL_EVENT_TITLE",
+  "source": "text"
+ },
+ {
+  "id": "FT_VOICE_CONTROL_EVENT_TOOLTIP",
+  "source": "The callback response."
+ },
+ {
+  "id": "FT_VOICE_CONTROL_ON_COMMAND_TITLE",
+  "source": "on command received: text %1 %2"
+ },
+ {
+  "id": "FT_VOICE_CONTROL_ON_COMMAND_TOOLTIP",
+  "source": "The event occurs when a command is received."
+ },
+ {
+  "id": "FT_MATH_ROUND_TITLE",
+  "source": "%1 with %2 decimals %3"
+ },
+ {
+  "id": "FT_TEXT_FORMAT_TITLE",
+  "source": "format text %1"
+ },
+ {
+  "id": "FT_TEXT_FORMAT_TOOLTIP",
+  "source": "Formats a text with given arguments"
+ },
+ {
+  "id": "FT_TEXT_FORMAT_WITH",
+  "source": "with"
+ },
+ {
+  "id": "FT_TEXT_FORMAT_EXAMPLE",
+  "source": "Hello {}, the current temperature is {:.2f}"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_SUBSCRIBE_TITLE",
+  "source": "%1 fischertechnik cloud subscribe to %2: payload %3 %4"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_SUBSCRIBE_TOOLTIP",
+  "source": "Subscribe on a topic."
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_PUBLISH_TITLE",
+  "source": "%1 fischertechnik cloud publish payload to %2 %3"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_PUBLISH_TOOLTIP",
+  "source": "Publish a payload to fischertechnik cloud."
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_CONNECT_TITLE",
+  "source": "%1 fischertechnik cloud connect"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_CONNECT_TOOLTIP",
+  "source": "Connect to fischertechnik cloud."
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_DISCONNECT_TITLE",
+  "source": "%1 fischertechnik cloud disconnect"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_DISCONNECT_TOOLTIP",
+  "source": "Disconnect from fischertechnik cloud."
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_IS_CONNECTED_TITLE",
+  "source": "%1 is connected to fischertechnik cloud"
+ },
+ {
+  "id": "FT_FT_CLOUD_MQTT_IS_CONNECTED_TOOLTIP",
+  "source": "If true, the connection to the fischertechnik cloud exists."
+ },
+ {
+  "id": "FT_MQTT_SUBSCRIBE_TITLE",
+  "source": "MQTT client %1 subscribe: callback %2 topic %3 qos %4"
+ },
+ {
+  "id": "FT_MQTT_SUBSCRIBE_TOOLTIP",
+  "source": "Subscribe on a topic."
+ },
+ {
+  "id": "FT_MQTT_PUBLISH_TITLE",
+  "source": "MQTT client %1 publish: topic %2 payload %3 qos %4 retain %5"
+ },
+ {
+  "id": "FT_MQTT_PUBLISH_TOOLTIP",
+  "source": "This causes a message to be sent to the broker and subsequently from the broker to any clients subscribing to matching topics."
+ }
+]

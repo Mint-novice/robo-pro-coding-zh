@@ -1,0 +1,422 @@
+[
+ {
+  "id": "moduleNeuralNetworkImportCsvSelectFile",
+  "source": "Select a file you want to import into your training data."
+ },
+ {
+  "id": "moduleNeuralNetworkExportCsv",
+  "source": "Export training data"
+ },
+ {
+  "id": "moduleNeuralNetworkExportCsvLocalFile",
+  "source": "Export file to device"
+ },
+ {
+  "id": "moduleNeuralNetworkExportCsvSelectFile",
+  "source": "Select a file to which you want to export your training data."
+ },
+ {
+  "id": "moduleNeuralNetworkTrainingControls",
+  "source": "Training Controls"
+ },
+ {
+  "id": "moduleNeuralNetworkTrainingControlsEpochs",
+  "source": "Epochs"
+ },
+ {
+  "id": "moduleNeuralNetworkTrainingControlsLearningRate",
+  "source": "Learning Rate"
+ },
+ {
+  "id": "moduleNeuralNetworkNeurons",
+  "source": "Neurons"
+ },
+ {
+  "id": "moduleNeuralNetworkNeuronsInputs",
+  "source": "Inputs"
+ },
+ {
+  "id": "moduleNeuralNetworkNeuronsOutputs",
+  "source": "Outputs"
+ },
+ {
+  "id": "moduleNeuralNetworkHiddenLayer",
+  "source": "Hidden Layer"
+ },
+ {
+  "id": "moduleNeuralNetworkHiddenLayers",
+  "source": "Hidden Layers"
+ },
+ {
+  "id": "moduleNeuralNetworkInputToHiddenLayer",
+  "source": "Input to Hidden Layer <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/>"
+ },
+ {
+  "id": "moduleNeuralNetworkHiddenLayerToHiddenLayer",
+  "source": "Hidden Layer <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> to Hidden Layer <x id=\"INTERPOLATION_1\" equiv-text=\"{{ 1 }}\"/>"
+ },
+ {
+  "id": "moduleNeuralNetworkHiddenLayerToOutput",
+  "source": "Hidden Layer <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> to Output"
+ },
+ {
+  "id": "moduleNeuralNetworkProblemType",
+  "source": "Problem Type"
+ },
+ {
+  "id": "moduleNeuralNetworkProblemTypeRegression",
+  "source": "Regression"
+ },
+ {
+  "id": "moduleNeuralNetworkProblemTypeClassification",
+  "source": "Classification"
+ },
+ {
+  "id": "moduleNeuralNetworkProblemTypeMultiLabelClassification",
+  "source": "Multi-label Classification"
+ },
+ {
+  "id": "moduleNeuralNetworkExtras",
+  "source": "Extras"
+ },
+ {
+  "id": "moduleNeuralNetworkExtrasUseWeightedLoss",
+  "source": "Use Weighted Loss"
+ },
+ {
+  "id": "moduleNeuralNetworkEpoch",
+  "source": "Epoch"
+ },
+ {
+  "id": "moduleNeuralNetworkNeuron",
+  "source": "Neuron"
+ },
+ {
+  "id": "moduleNeuralNetworkLayer",
+  "source": "Layer"
+ },
+ {
+  "id": "moduleNeuralNetworkWeights",
+  "source": "Weights"
+ },
+ {
+  "id": "moduleNeuralNetworkBias",
+  "source": "Bias"
+ },
+ {
+  "id": "moduleNeuralNetworkTrainingWeights",
+  "source": "Network Weights"
+ },
+ {
+  "id": "NoExamplesFound",
+  "source": "No examples were found. This could be due to no internet connection, fischertechnik GitLab is not reachable or this kit has no examples yet."
+ },
+ {
+  "id": "LoadingExamples",
+  "source": "Loading examples from fischertechnik GitLab"
+ },
+ {
+  "id": "globalAttention",
+  "source": "Attention"
+ },
+ {
+  "id": "globalEmpty",
+  "source": "Empty"
+ },
+ {
+  "id": "globalNew",
+  "source": "New"
+ },
+ {
+  "id": "globalDisabled",
+  "source": "Disabled"
+ },
+ {
+  "id": "globalHelp",
+  "source": "Help"
+ },
+ {
+  "id": "globalLoad",
+  "source": "Load"
+ },
+ {
+  "id": "globalSave",
+  "source": "Save"
+ },
+ {
+  "id": "globalMenu",
+  "source": "Menu"
+ },
+ {
+  "id": "globalLocal",
+  "source": "Local"
+ },
+ {
+  "id": "globalExample",
+  "source": "Example"
+ },
+ {
+  "id": "globalLanguage",
+  "source": "Language"
+ },
+ {
+  "id": "globalSounds",
+  "source": "Sounds"
+ },
+ {
+  "id": "globalPreferences",
+  "source": "Preferences"
+ },
+ {
+  "id": "globalImprint",
+  "source": "Imprint"
+ },
+ {
+  "id": "globalStop",
+  "source": "Stop"
+ },
+ {
+  "id": "globalProjectName",
+  "source": "Project name"
+ },
+ {
+  "id": "exportProjectSelectLocation",
+  "source": "Choose a location where the project will be saved"
+ },
+ {
+  "id": "exportProjectToGitLab",
+  "source": "Save the project to fischertechnik GitLab"
+ },
+ {
+  "id": "exportProjectToLocalMachine",
+  "source": "Save the project to your local machine"
+ },
+ {
+  "id": "exportProjectError",
+  "source": "The project cannot be saved."
+ },
+ {
+  "id": "personalAccessToken",
+  "source": "Personal Access Token"
+ },
+ {
+  "id": "personalAccessTokenDetailed",
+  "source": "To see private repositories you need a Personal Access Token with access right for the API."
+ },
+ {
+  "id": "personalAccessTokenCreationStep1",
+  "source": "Log in to fischertechnik GitLab."
+ },
+ {
+  "id": "personalAccessTokenCreationStep2",
+  "source": "In the upper-right corner, click your avatar and select Settings."
+ },
+ {
+  "id": "personalAccessTokenCreationStep3",
+  "source": "On the User Settings menu, select Access Tokens."
+ },
+ {
+  "id": "personalAccessTokenCreationStep4",
+  "source": "Choose a name and optional expiry date for the token."
+ },
+ {
+  "id": "personalAccessTokenCreationStep5",
+  "source": "Choose the desired scopes."
+ },
+ {
+  "id": "personalAccessTokenCreationStep6",
+  "source": "Click the Create personal access token button."
+ },
+ {
+  "id": "personalAccessTokenCreationStep7",
+  "source": "Save the personal access token somewhere safe. Once you leave or refresh the page, you won’t be able to access it again."
+ },
+ {
+  "id": "importProjectSelectLocation",
+  "source": "Choose a location from where the project should be loaded"
+ },
+ {
+  "id": "importProjectFromGitLab",
+  "source": "Load a project from fischertechnik GitLab"
+ },
+ {
+  "id": "importProjectFromLocalMachine",
+  "source": "Load a project from your local machine"
+ },
+ {
+  "id": "importProjectFromLocalMachineFileSuffix",
+  "source": "Drop file here or"
+ },
+ {
+  "id": "importProjectFromLocalMachineFilePrefix",
+  "source": "browse"
+ },
+ {
+  "id": "personalAccessTokenOptional",
+  "source": "Personal Access Token (optional)"
+ },
+ {
+  "id": "recentlyUsedProjects",
+  "source": "Recently used projects"
+ },
+ {
+  "id": "recentlyUsedProjectsDescription",
+  "source": "Recently opened projects whose windows were closed are displayed here."
+ },
+ {
+  "id": "recentlyUsedProjectsDeleteQuestion",
+  "source": "Are you sure you want to delete this project?"
+ },
+ {
+  "id": "chooseProjectOptions",
+  "source": "Choose options for your new project"
+ },
+ {
+  "id": "chooseProjectTemplate",
+  "source": "Choose a template for your new project"
+ },
+ {
+  "id": "nameHint",
+  "source": "Name of your project"
+ },
+ {
+  "id": "display",
+  "source": "Display"
+ },
+ {
+  "id": "chooseConstructionKit",
+  "source": "Choose a construction kit"
+ },
+ {
+  "id": "chooseExampleProject",
+  "source": "Choose a example for your new project"
+ },
+ {
+  "id": "languageHint",
+  "source": "Controls the language of the development environment."
+ },
+ {
+  "id": "soundsHint",
+  "source": "Controls whether or not sounds are enabled."
+ },
+ {
+  "id": "gitlabSource",
+  "source": "GitLab Source"
+ },
+ {
+  "id": "gitlabSourceHint",
+  "source": "Controls the GitLab instance to use within this session."
+ },
+ {
+  "id": "newProject",
+  "source": "New project ..."
+ },
+ {
+  "id": "newProjectDetailed",
+  "source": "Create a new empty project or use a sample project."
+ },
+ {
+  "id": "importProject",
+  "source": "Load project ..."
+ },
+ {
+  "id": "importProjectDetailed",
+  "source": "Load an existing project from a zip file or other place."
+ },
+ {
+  "id": "uploadProgram",
+  "source": "Upload program"
+ },
+ {
+  "id": "startProgram",
+  "source": "Start program"
+ },
+ {
+  "id": "startDebugging",
+  "source": "Start debugging"
+ },
+ {
+  "id": "unsavedProjectWarning",
+  "source": "There are unsaved changes to the current project. Are you sure you want to continue?"
+ },
+ {
+  "id": "documentation",
+  "source": "Documentation"
+ },
+ {
+  "id": "privacyPolicy",
+  "source": "Privacy policy"
+ },
+ {
+  "id": "sideNavNodeRedFlow",
+  "source": "Node-RED Flow"
+ },
+ {
+  "id": "sideNavNodeRedDashboard",
+  "source": "Node-RED Dashboard"
+ },
+ {
+  "id": "sideNavExplorer",
+  "source": "Explorer"
+ },
+ {
+  "id": "sideNavFirmware",
+  "source": "Firmware"
+ },
+ {
+  "id": "sideNavScreenshare",
+  "source": "Screenshare"
+ },
+ {
+  "id": "sideNavSshTerminal",
+  "source": "SSH Terminal"
+ },
+ {
+  "id": "openNewWindow",
+  "source": "New window"
+ },
+ {
+  "id": "toggleDevTools",
+  "source": "Developer tools"
+ },
+ {
+  "id": "control.xml",
+  "source": "Control Panel Configuration"
+ },
+ {
+  "id": "neural_network.json",
+  "source": "Neural Network Configuration"
+ },
+ {
+  "id": "controller.py",
+  "source": "Controller Configuration"
+ },
+ {
+  "id": "display.xml",
+  "source": "Display Configuration"
+ },
+ {
+  "id": "camera.xml",
+  "source": "Camera Configuration"
+ },
+ {
+  "id": "main.py",
+  "source": "Main Program"
+ },
+ {
+  "id": ".project.json",
+  "source": "Project Configuration"
+ },
+ {
+  "id": "webviewDialogContent",
+  "source": "You're using an outdated version of Android System WebView. Some elements in this app might not be displayed correctly. Please update Android System WebView in the PlayStore."
+ },
+ {
+  "id": "releaseNotes",
+  "source": "Release notes"
+ },
+ {
+  "id": "releaseNotesMessage",
+  "source": "There are new features in this version, would you like to see them now?"
+ }
+]

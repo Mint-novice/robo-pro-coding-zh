@@ -1,0 +1,434 @@
+[
+ {
+  "id": "FT_COMMON_DARK",
+  "source": "dark"
+ },
+ {
+  "id": "FT_COMMON_DIRECTION",
+  "source": "direction"
+ },
+ {
+  "id": "FT_COMMON_SYNC_WITH_MOTOR",
+  "source": "sync with motor"
+ },
+ {
+  "id": "FT_COMMON_NUMBER",
+  "source": "number"
+ },
+ {
+  "id": "FT_COMMON_TEXT",
+  "source": "text"
+ },
+ {
+  "id": "FT_COMMON_ENABLE",
+  "source": "enable"
+ },
+ {
+  "id": "FT_COMMON_DISABLE",
+  "source": "disable"
+ },
+ {
+  "id": "FT_COMMON_LIGHT",
+  "source": "light"
+ },
+ {
+  "id": "FT_COMMON_PROXIMITY",
+  "source": "proximity"
+ },
+ {
+  "id": "FT_COMMON_GESTURE",
+  "source": "gesture"
+ },
+ {
+  "id": "FT_COMMON_AMBIENT",
+  "source": "ambient"
+ },
+ {
+  "id": "FT_COUNTER_TITLE",
+  "source": "%1 Encodermotor %2 counter"
+ },
+ {
+  "id": "FT_COUNTER_IF_VALUE_TITLE",
+  "source": "%1 is counter %2 value %3 %4"
+ },
+ {
+  "id": "FT_COUNTER_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_COUNTER_GET_VALUE_TITLE",
+  "source": "%1 get counter %2 value"
+ },
+ {
+  "id": "FT_COUNTER_GET_VALUE_TOOLTIP",
+  "source": "Returns the value of counter."
+ },
+ {
+  "id": "FT_COUNTER_RESET_TITLE",
+  "source": "reset counter"
+ },
+ {
+  "id": "FT_COUNTER_RESET_TOOLTIP",
+  "source": "Resets a counter to 0."
+ },
+ {
+  "id": "FT_SERVOMOTOR_TITLE",
+  "source": "Servomotor"
+ },
+ {
+  "id": "FT_SERVOMOTOR_SET_POSITION_IN_DEGREES_TITLE",
+  "source": "%1 set servomotor %2 angle %3"
+ },
+ {
+  "id": "FT_SERVOMOTOR_SET_POSITION_IN_DEGREES_TOOLTIP",
+  "source": "Moves a servomotor to a angle (-90 - +90)."
+ },
+ {
+  "id": "FT_SERVOMOTOR_SET_POSITION_TITLE",
+  "source": "%1 set servomotor %2 position %3"
+ },
+ {
+  "id": "FT_SERVOMOTOR_SET_POSITION_TOOLTIP",
+  "source": "Moves a servomotor to a position (0-512)."
+ },
+ {
+  "id": "FT_SERVOMOTOR_GET_POSITION_TITLE",
+  "source": "%1 get servomotor %2 %3"
+ },
+ {
+  "id": "FT_SERVOMOTOR_GET_POSITION_TOOLTIP",
+  "source": "Returns the position of servomotor."
+ },
+ {
+  "id": "FT_SERVOMOTOR_NUMBER_TOOLTIP",
+  "source": "Sets position of servomotor (0-512)."
+ },
+ {
+  "id": "FT_SERVOMOTOR_NUMBER_IN_DEGREES_TOOLTIP",
+  "source": "Sets angle of servomotor (-90 - +90)."
+ },
+ {
+  "id": "FT_OUTPUT_LED_TITLE",
+  "source": "LED"
+ },
+ {
+  "id": "FT_OUTPUT_LED_IF_STATE_TITLE",
+  "source": "is LED"
+ },
+ {
+  "id": "FT_OUTPUT_LED_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_LED_TOGGLE_STATE_TITLE",
+  "source": "set LED"
+ },
+ {
+  "id": "FT_OUTPUT_LED_TOGGLE_STATE_TOOLTIP",
+  "source": "Turns LED on or off."
+ },
+ {
+  "id": "FT_OUTPUT_LED_IF_VALUE_TITLE",
+  "source": "%1 is LED %2 brightness %3 %4"
+ },
+ {
+  "id": "FT_OUTPUT_LED_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_LED_GET_VALUE_TITLE",
+  "source": "%1 get LED %2 brightness"
+ },
+ {
+  "id": "FT_OUTPUT_LED_GET_VALUE_TOOLTIP",
+  "source": "Returns the brightness of LED."
+ },
+ {
+  "id": "FT_OUTPUT_LED_SET_VALUE_TITLE",
+  "source": "%1 set LED %2 brightness %3"
+ },
+ {
+  "id": "FT_OUTPUT_LED_SET_VALUE_TOOLTIP",
+  "source": "Sets brightness of LED (0-512)."
+ },
+ {
+  "id": "FT_OUTPUT_MAGNETIC_VALVE_TITLE",
+  "source": "3/2-way solenoid valve"
+ },
+ {
+  "id": "FT_OUTPUT_MAGNETIC_VALVE_TOGGLE_STATE_TITLE",
+  "source": "set magnetic valve"
+ },
+ {
+  "id": "FT_OUTPUT_MAGNETIC_VALVE_TOGGLE_STATE_TOOLTIP",
+  "source": "Turns magnetic valve on or off."
+ },
+ {
+  "id": "FT_OUTPUT_MAGNETIC_VALVE_IF_STATE_TITLE",
+  "source": "is magnetic valve"
+ },
+ {
+  "id": "FT_OUTPUT_MAGNETIC_VALVE_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_COMPRESSOR_TITLE",
+  "source": "Compressor"
+ },
+ {
+  "id": "FT_OUTPUT_COMPRESSOR_IF_STATE_TITLE",
+  "source": "is compressor"
+ },
+ {
+  "id": "FT_OUTPUT_COMPRESSOR_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_COMPRESSOR_TOGGLE_STATE_TITLE",
+  "source": "set compressor"
+ },
+ {
+  "id": "FT_OUTPUT_COMPRESSOR_TOGGLE_STATE_TOOLTIP",
+  "source": "Turns compressor on or off."
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_TITLE",
+  "source": "Motor"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_SET_SPEED_TITLE",
+  "source": "%1 set motor at output %2 speed %3"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_SET_SPEED_TOOLTIP",
+  "source": "Sets speed of motor at output (0-512)."
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_GET_SPEED_TITLE",
+  "source": "%1 get motor at output %2 speed"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_GET_SPEED_TOOLTIP",
+  "source": "Returns the speed of motor at output"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_IF_SPEED_TITLE",
+  "source": "%1 is motor at output %2 speed %3 %4"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_IF_SPEED_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_IF_RUNNING_TITLE",
+  "source": "%1 is motor at output %2 running"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_IF_RUNNING_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_STOP_TITLE",
+  "source": "stop motor at output"
+ },
+ {
+  "id": "FT_OUTPUT_UNIDIRECTIONAL_MOTOR_STOP_TOOLTIP",
+  "source": "Stops the motor at output."
+ },
+ {
+  "id": "FT_MOTOR_TITLE",
+  "source": "Motor"
+ },
+ {
+  "id": "FT_MOTOR_SET_SPEED_TITLE",
+  "source": "%1 set motor %2 %3 speed %4"
+ },
+ {
+  "id": "FT_MOTOR_SET_SPEED_TOOLTIP",
+  "source": "Sets speed of motor (0-512)."
+ },
+ {
+  "id": "FT_MOTOR_GET_SPEED_TITLE",
+  "source": "%1 get motor %2 speed"
+ },
+ {
+  "id": "FT_MOTOR_GET_SPEED_TOOLTIP",
+  "source": "Returns the speed of motor"
+ },
+ {
+  "id": "FT_MOTOR_IF_SPEED_TITLE",
+  "source": "%1 is motor %2 speed %3 %4"
+ },
+ {
+  "id": "FT_MOTOR_IF_SPEED_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_MOTOR_IF_RUNNING_TITLE",
+  "source": "%1 is motor %2 running"
+ },
+ {
+  "id": "FT_MOTOR_IF_RUNNING_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_MOTOR_STOP_TITLE",
+  "source": "stop motor"
+ },
+ {
+  "id": "FT_MOTOR_STOP_TOOLTIP",
+  "source": "Stops the motor."
+ },
+ {
+  "id": "FT_MOTOR_NUMBER_TOOLTIP",
+  "source": "Sets speed of motor (0-512)."
+ },
+ {
+  "id": "FT_ENCODERMOTOR_TITLE",
+  "source": "Encodermotor"
+ },
+ {
+  "id": "FT_ENCODERMOTOR_SET_VALUES_TITLE",
+  "source": "%1 %2 set motor %3 %4 speed %5 step size %6"
+ },
+ {
+  "id": "FT_ENCODERMOTOR_SET_VALUES_TOOLTIP",
+  "source": "Sets speed (0-512), direction and step size of motor."
+ },
+ {
+  "id": "FT_ENCODERMOTOR_SET_SPEED_TITLE",
+  "source": "%1 %2 set motor %3 %4 speed %5"
+ },
+ {
+  "id": "FT_ENCODERMOTOR_SET_SPEED_TOOLTIP",
+  "source": "Sets speed (0-512) and direction of motor."
+ },
+ {
+  "id": "FT_ENCODERMOTOR_STOP_TITLE",
+  "source": "%1 %2 stop motor %3"
+ },
+ {
+  "id": "FT_ENCODERMOTOR_STOP_TOOLTIP",
+  "source": "Stops motors synchronously."
+ },
+ {
+  "id": "FT_ENCODERMOTOR_POSITION_REACHED_TITLE",
+  "source": "%1 has motor %2 reached position"
+ },
+ {
+  "id": "FT_ENCODERMOTOR_POSITION_REACHED_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_COMPRESSOR_TITLE",
+  "source": "Compressor"
+ },
+ {
+  "id": "FT_INPUT_NTC_RESISTOR_TITLE",
+  "source": "NTC resistor"
+ },
+ {
+  "id": "FT_INPUT_NTC_RESISTOR_IF_VALUE_TITLE",
+  "source": "%1 is NTC resistor %2 %3 %4 %5"
+ },
+ {
+  "id": "FT_INPUT_NTC_RESISTOR_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_NTC_RESISTOR_GET_VALUE_TITLE",
+  "source": "%1 get NTC resistor %2 %3"
+ },
+ {
+  "id": "FT_INPUT_NTC_RESISTOR_GET_VALUE_TOOLTIP",
+  "source": "The resistance value at the input in ohms or the temperature."
+ },
+ {
+  "id": "FT_INPUT_PHOTO_TRANSISTOR_TITLE",
+  "source": "Photo transistor"
+ },
+ {
+  "id": "FT_INPUT_PHOTO_TRANSISTOR_IF_STATE_TITLE",
+  "source": "%1 is photo transistor %2 %3"
+ },
+ {
+  "id": "FT_INPUT_PHOTO_TRANSISTOR_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_PHOTO_TRANSISTOR_GET_STATE_TITLE",
+  "source": "%1 get photo transistor %2 state"
+ },
+ {
+  "id": "FT_INPUT_PHOTO_TRANSISTOR_GET_STATE_TOOLTIP",
+  "source": "The value of the phototransistor (0 or 1) connected to the input."
+ },
+ {
+  "id": "FT_INPUT_ULTRASONIC_DISTANCE_METER_TITLE",
+  "source": "Ultrasonic Distance Sensor"
+ },
+ {
+  "id": "FT_INPUT_ULTRASONIC_DISTANCE_METER_IF_VALUE_TITLE",
+  "source": "%1 is ultrasonic sensor %2 distance %3 %4"
+ },
+ {
+  "id": "FT_INPUT_ULTRASONIC_DISTANCE_METER_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_ULTRASONIC_DISTANCE_METER_GET_VALUE_TITLE",
+  "source": "%1 get ultrasonic sensor %2 distance"
+ },
+ {
+  "id": "FT_INPUT_ULTRASONIC_DISTANCE_METER_GET_VALUE_TOOLTIP",
+  "source": "The current distance between the ultrasonic sensor and the object in front in cm."
+ },
+ {
+  "id": "FT_INPUT_COLOR_SENSOR_TITLE",
+  "source": "Optical Color Sensor"
+ },
+ {
+  "id": "FT_INPUT_COLOR_SENSOR_IF_VALUE_TITLE",
+  "source": "%1 is color sensor %2 value %3 %4"
+ },
+ {
+  "id": "FT_INPUT_COLOR_SENSOR_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_COLOR_SENSOR_GET_VALUE_TITLE",
+  "source": "%1 get color sensor %2 value"
+ },
+ {
+  "id": "FT_INPUT_COLOR_SENSOR_GET_VALUE_TOOLTIP",
+  "source": "The recognized color value as number."
+ },
+ {
+  "id": "FT_INPUT_TRAIL_FOLLOWER_TITLE",
+  "source": "IR-Track Sensor"
+ },
+ {
+  "id": "FT_INPUT_TRAIL_FOLLOWER_IF_STATE_TITLE",
+  "source": "%1 is IR track sensor %2 state %3 %4"
+ },
+ {
+  "id": "FT_INPUT_TRAIL_FOLLOWER_IF_STATE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_INPUT_TRAIL_FOLLOWER_GET_STATE_TITLE",
+  "source": "%1 get IR track sensor %2 state"
+ },
+ {
+  "id": "FT_INPUT_TRAIL_FOLLOWER_GET_STATE_TOOLTIP",
+  "source": "The value of the trail sensor (0 or 1) connected to the input."
+ },
+ {
+  "id": "FT_INPUT_PHOTO_RESISTOR_TITLE",
+  "source": "Photo resistor"
+ },
+ {
+  "id": "FT_INPUT_PHOTO_RESISTOR_IF_VALUE_TITLE",
+  "source": "%1 is photo resistor %2 value %3 %4"
+ }
+]

@@ -1,0 +1,514 @@
+[
+ {
+  "id": "globalOk",
+  "source": "Ok"
+ },
+ {
+  "id": "globalNo",
+  "source": "No"
+ },
+ {
+  "id": "globalYes",
+  "source": "Yes"
+ },
+ {
+  "id": "globalCancel",
+  "source": "Cancel"
+ },
+ {
+  "id": "globalConfirm",
+  "source": "Confirm"
+ },
+ {
+  "id": "globalBack",
+  "source": "Back"
+ },
+ {
+  "id": "globalNext",
+  "source": "Next"
+ },
+ {
+  "id": "globalConnect",
+  "source": "Connect"
+ },
+ {
+  "id": "globalDisconnect",
+  "source": "Diconnect"
+ },
+ {
+  "id": "globalUpdateNow",
+  "source": "Update now"
+ },
+ {
+  "id": "globalUserDefined",
+  "source": "User defined"
+ },
+ {
+  "id": "globalScanning",
+  "source": "Scanning"
+ },
+ {
+  "id": "globalSelect",
+  "source": "Select"
+ },
+ {
+  "id": "globalRed",
+  "source": "Red"
+ },
+ {
+  "id": "globalBlue",
+  "source": "Blue"
+ },
+ {
+  "id": "globalGreen",
+  "source": "Green"
+ },
+ {
+  "id": "globalWhite",
+  "source": "White"
+ },
+ {
+  "id": "globalSensor",
+  "source": "Sensor"
+ },
+ {
+  "id": "globalInvalid",
+  "source": "invalid"
+ },
+ {
+  "id": "controller",
+  "source": "Controller"
+ },
+ {
+  "id": "controllerFirmware",
+  "source": "Firmware"
+ },
+ {
+  "id": "controllerConnectionMode",
+  "source": "Connection mode"
+ },
+ {
+  "id": "connectController",
+  "source": "Connect controller"
+ },
+ {
+  "id": "connectControllerAddress",
+  "source": "IP of the controller"
+ },
+ {
+  "id": "connectControllerAddressHint",
+  "source": "Enter IP or DNS name"
+ },
+ {
+  "id": "connectControllerApiKey",
+  "source": "API - Key"
+ },
+ {
+  "id": "connectControllerApiKeyHint",
+  "source": "Enter key"
+ },
+ {
+  "id": "connectControllerBtSmartInstallDriver",
+  "source": "Install USB driver for BT Smart Controller"
+ },
+ {
+  "id": "connectControllerError",
+  "source": "The connection could not be established. Check that the controller is turned on and your entries were correct."
+ },
+ {
+  "id": "connectControllerTxt4Error",
+  "source": "The connection to the controller could not be established. Please check the following:"
+ },
+ {
+  "id": "connectControllerTxt4ErrorStartup",
+  "source": "Is the controller switched on and has it been running for about a minute?"
+ },
+ {
+  "id": "connectControllerTxt4ErrorIpAddress",
+  "source": "Has the correct IP address been entered?"
+ },
+ {
+  "id": "connectControllerTxt4ErrorNetwork",
+  "source": "Is the device in the same network as the controller?"
+ },
+ {
+  "id": "connectControllerTxt4ErrorFirewall",
+  "source": "Could a firewall be blocking the connection?"
+ },
+ {
+  "id": "connectControllerTxt4ErrorApiKey",
+  "source": "If an API key is required: Has it been entered correctly?"
+ },
+ {
+  "id": "connectControllerTxt4ErrorFirmware",
+  "source": "Is firmware version <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> or newer installed on the controller?"
+ },
+ {
+  "id": "connectControllerTxt4AllreadyConnected",
+  "source": "There is already a connection to this controller."
+ },
+ {
+  "id": "connectControllerTxt4Incompatible",
+  "source": "<x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> <x id=\"INTERPOLATION_1\" equiv-text=\"{{ 1 }}\"/> is incompatible with the controller's firmware. Please update <x id=\"INTERPOLATION_2\" equiv-text=\"{{ 2 }}\"/> to the latest version or install firmware <x id=\"INTERPOLATION_3\" equiv-text=\"{{ 3 }}\"/> on your controller."
+ },
+ {
+  "id": "connectControllerFirmwareRxUpdate",
+  "source": "Your controller is version <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> but requires version <x id=\"INTERPOLATION_1\" equiv-text=\"{{ 1 }}\"/> to work with <x id=\"INTERPOLATION_2\" equiv-text=\"{{ 2 }}\"/>.<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"START_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;strong&gt;\"/>Attention!<x id=\"CLOSE_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;/strong&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Do not interrupt the power supply to the RX controller during the update! Fully charge the battery beforehand or use a power supply!"
+ },
+ {
+  "id": "connectControllerFirmwareRxUpload",
+  "source": "The files for the update are now transferred to the controller. Depending on the connection speed, this can take different amounts of time (USB: around 2 minutes, Bluetooth: around 8-13 minutes).<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>During transmission, the ON/OFF LED flashes slowly in yellow - green. After the transfer, the installation takes place, which also requires an <x id=\"START_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;strong&gt;\"/>uninterruptible power supply<x id=\"CLOSE_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;/strong&gt;\"/>."
+ },
+ {
+  "id": "connectControllerFirmwareRxInstall",
+  "source": "Continue to ensure an <x id=\"START_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;strong&gt;\"/>uninterrupted power supply<x id=\"CLOSE_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;/strong&gt;\"/>.<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>The update will now be installed. During installation, the ON/OFF LED first turns off for about 5 seconds, lights up for about 10 seconds, flashes yellow - green quickly for about 40 seconds and then turns off.<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>When the ON/OFF LED turns off, then the installation is complete. Restart the controller and re-establish the connection."
+ },
+ {
+  "id": "connectControllerEnableLocation",
+  "source": "To connect to the controller, you need to enable GPS on your device."
+ },
+ {
+  "id": "connectControllerOpenLocationSettings",
+  "source": "Open Settings"
+ },
+ {
+  "id": "connectControllerNoScanResults",
+  "source": "If no controllers are found, click on <x id=\"START_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;strong&gt;\"/>USER DEFINED<x id=\"CLOSE_TAG_STRONG\" ctype=\"x-strong\" equiv-text=\"&lt;/strong&gt;\"/>."
+ },
+ {
+  "id": "interfaceTest",
+  "source": "Interface Test"
+ },
+ {
+  "id": "interfaceTestCounters",
+  "source": "Counters"
+ },
+ {
+  "id": "interfaceTestCountersReset",
+  "source": "Reset"
+ },
+ {
+  "id": "interfaceTestCountersDigital",
+  "source": "Digital"
+ },
+ {
+  "id": "interfaceTestServos",
+  "source": "Servomotors"
+ },
+ {
+  "id": "interfaceTestOutputs",
+  "source": "Outputs"
+ },
+ {
+  "id": "interfaceTestOutputsCw",
+  "source": "CW"
+ },
+ {
+  "id": "interfaceTestOutputsCcw",
+  "source": "CCW"
+ },
+ {
+  "id": "interfaceTestI2c",
+  "source": "I2C (EXT)"
+ },
+ {
+  "id": "interfaceTestI2cCombinedSensor",
+  "source": "Combined sensor (10 Pin)"
+ },
+ {
+  "id": "interfaceTestI2cCombinedSensor6Pin",
+  "source": "Combined Sensor (6 Pin)"
+ },
+ {
+  "id": "interfaceTestI2cCombinedSensorGyroscope",
+  "source": "Gyroscope (range: <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> °/s, bandwidth: <x id=\"INTERPOLATION_1\" equiv-text=\"{{ 1 }}\"/> Hz)"
+ },
+ {
+  "id": "interfaceTestI2cCombinedSensorAccelerator",
+  "source": "Accelerator (range: <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> g, bandwidth: <x id=\"INTERPOLATION_1\" equiv-text=\"{{ 1 }}\"/> Hz)"
+ },
+ {
+  "id": "interfaceTestI2cCombinedSensorMagnetometer",
+  "source": "Magnetometer (rate: <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/> Hz)"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensor",
+  "source": "Environment sensor"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensorIaq",
+  "source": "IAQ"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensorAccuracy",
+  "source": "Accuracy"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensorHumidity",
+  "source": "Humidity"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensorPressure",
+  "source": "Pressure"
+ },
+ {
+  "id": "interfaceTestI2cEnvironmentSensorTemperature",
+  "source": "Temperature"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensor",
+  "source": "Gesture sensor"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGesture",
+  "source": "Gesture"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureLeft",
+  "source": "Left"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureRight",
+  "source": "Right"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureUp",
+  "source": "Up"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureDown",
+  "source": "Down"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureFar",
+  "source": "Far"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureNear",
+  "source": "Near"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorGestureNone",
+  "source": "None"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorAmbient",
+  "source": "Ambient"
+ },
+ {
+  "id": "interfaceTestI2cGestureSensorProximity",
+  "source": "Proximity"
+ },
+ {
+  "id": "interfaceTestI2cRgbColorSensor",
+  "source": "RGB color sensor"
+ },
+ {
+  "id": "interfaceTestInputs",
+  "source": "Inputs"
+ },
+ {
+  "id": "interfaceTestInputsColorSensor",
+  "source": "Optical Color Sensor"
+ },
+ {
+  "id": "interfaceTestInputsPhotoTransistor",
+  "source": "Photo transistor"
+ },
+ {
+  "id": "interfaceTestInputsPhotoResistor",
+  "source": "Photo resistor"
+ },
+ {
+  "id": "interfaceTestInputsTrailFollower",
+  "source": "IR-Track Sensor"
+ },
+ {
+  "id": "interfaceTestInputsNtcResistor",
+  "source": "NTC resistor"
+ },
+ {
+  "id": "interfaceTestInputsMiniSwitch",
+  "source": "Mini switch"
+ },
+ {
+  "id": "interfaceTestInputsUltrasonicDistanceMeter",
+  "source": "Ultrasonic Distance Sensor"
+ },
+ {
+  "id": "interfaceTestInputsReedContact",
+  "source": "Reed contact"
+ },
+ {
+  "id": "projectWithSameNameExists",
+  "source": "A Project with same name exists on the controller, do you want to replace it?"
+ },
+ {
+  "id": "dataDirectoryNotEmptyOrNotEqual",
+  "source": "Files in the data directory differ from the files on the controller. Do you want to replace the files in the data directory?"
+ },
+ {
+  "id": "fileWithSameNameExists",
+  "source": "A file with same name exists on the controller, do you want to replace it?"
+ },
+ {
+  "id": "fileNotFound",
+  "source": "This file does not exist on the controller."
+ },
+ {
+  "id": "uploadData",
+  "source": "Data transfer in progress"
+ },
+ {
+  "id": "processStarted",
+  "source": "Process is started"
+ },
+ {
+  "id": "processStoped",
+  "source": "Running process is terminated"
+ },
+ {
+  "id": "eventConnected",
+  "source": "Connected to the controller"
+ },
+ {
+  "id": "eventDisconnected",
+  "source": "Connection to the controller disconnected"
+ },
+ {
+  "id": "eventAfterStartApplication",
+  "source": "Application started"
+ },
+ {
+  "id": "eventAfterStartDebugger",
+  "source": "Debugger started"
+ },
+ {
+  "id": "loginTitle",
+  "source": "Login"
+ },
+ {
+  "id": "loginTitleHint",
+  "source": "Sign in to use all features."
+ },
+ {
+  "id": "loginUsername",
+  "source": "Username"
+ },
+ {
+  "id": "loginPassword",
+  "source": "Password"
+ },
+ {
+  "id": "loginPasswordReset",
+  "source": "Reset password"
+ },
+ {
+  "id": "loginSubmit",
+  "source": "Login"
+ },
+ {
+  "id": "loginRegister",
+  "source": "Register"
+ },
+ {
+  "id": "loginRegisterHint",
+  "source": "No account yet?"
+ },
+ {
+  "id": "loginErrorAccountNotSetUp",
+  "source": "Your account is not fully set up. Please check if you verified your email address with the confirmation mail."
+ },
+ {
+  "id": "loginErrorCredentials",
+  "source": "The username or password you entered is incorrect. Please check again."
+ },
+ {
+  "id": "loginErrorUnknown",
+  "source": "An unknown error occurred. Please try again later."
+ },
+ {
+  "id": "loginLogOut",
+  "source": "Log out"
+ },
+ {
+  "id": "txt4FirmwareUpdateTitle",
+  "source": "Your TXT 4.0 Controller needs a firmware update"
+ },
+ {
+  "id": "txt4FirmwareUpdateMessage",
+  "source": "Please follow the instructions step by step. If you have any questions, please contact <x id=\"INTERPOLATION\" equiv-text=\"{{ 0 }}\"/>."
+ },
+ {
+  "id": "txt4FirmwareUpdateCoution",
+  "source": "CAUTION: DO NOT interrupt the power supply during the update process, otherwise the TXT 4.0 controller could be damaged."
+ },
+ {
+  "id": "txt4FirmwareUpdateCurrentVersionTitle",
+  "source": "Current version of the TXT 4.0 controller"
+ },
+ {
+  "id": "txt4FirmwareUpdateCurrentVersionMessage",
+  "source": "The current version of the TXT 4.0 controller can be found on the controller in the menu:<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Info -> Software Version"
+ },
+ {
+  "id": "txt4FirmwareUpdateViaTitle",
+  "source": "How would you like to update the controller?"
+ },
+ {
+  "id": "txt4FirmwareUpdateViaInternet",
+  "source": "When updating via Internet / WLAN, you do not need any external hardware, but the controller must be connected to the Internet."
+ },
+ {
+  "id": "txt4FirmwareUpdateViaUSBStick",
+  "source": "When updating via USB stick or µSD card, you need the stick or card and a computer to prepare the stick or card."
+ },
+ {
+  "id": "txt4FirmwareUpdateViaInternetTitle",
+  "source": "Update via Internet / WLAN"
+ },
+ {
+  "id": "txt4FirmwareUpdateViaInternetMessageConnect",
+  "source": "Connect the TXT 4.0 Controller to an Internet router via WLAN. If an Internet connection has been set up, a globe symbol should be displayed in the status bar of the controller instead of the WLAN symbol. An update symbol is visible during an update, see image below:"
+ },
+ {
+  "id": "txt4FirmwareUpdateViaInternetMessageStartUpdate",
+  "source": "Navigate to the menu: Settings -> Updates<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Select the version under \"Online updates\". Press \"Install\". Updating the firmware via the Internet takes about 10-30 minutes. The duration depends on the Internet connection. For firmware version 3.1.0, you must first update to 3.1.4."
+ },
+ {
+  "id": "txt4FirmwareUpdateViaUSBStickTitle",
+  "source": "Update via USB stick or µSD card"
+ },
+ {
+  "id": "txt4FirmwareUpdateViaUSBStickPreparation",
+  "source": "Take a USB stick or a µSD card with a memory size of 4-32GB. These must be formatted as FAT32.<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>FAT32 should be displayed as the file system under Properties for the storage medium (under Windows, see image).<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Download the update file, e.g. \"imageqtbundleconv316.raucb\" from the <x id=\"INTERPOLATION\" equiv-text=\"{{ 0     }}\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>save this file to the storage medium. Then insert the storage medium into the TXT 4.0 controller."
+ },
+ {
+  "id": "txt4FirmwareUpdateViaUSBStickStartUpdate",
+  "source": "Navigate to the menu: Settings -> Updates<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Press \"Open firmware file\" and navigate to the update file.<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>ext_usb -> sda ... or ext_sd -> mmcblk1p1 ...<x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/><x id=\"LINE_BREAK\" ctype=\"lb\" equiv-text=\"&lt;br /&gt;\"/>Press \"Install\". Updating the firmware takes about 10 minutes."
+ },
+ {
+  "id": "txt4FirmwareUpdateStatusTitle",
+  "source": "Install update"
+ },
+ {
+  "id": "txt4FirmwareUpdateStatusMessage",
+  "source": "The update status should then be shown on the controller display. When the update is complete, a message will be displayed. If the process has been completed successfully, switch the TXT 4.0 Controller off and on again by pressing the ON/OFF button for >3 seconds at the end of the update. If the TXT 4.0 Controller has rebooted, a green tick symbol should be visible in the status bar at the end."
+ },
+ {
+  "id": "viaInternet",
+  "source": "via Internet / WLAN"
+ },
+ {
+  "id": "viaUSBStick",
+  "source": "via USB stick or µSD card"
+ },
+ {
+  "id": "dialogNotShowAgain",
+  "source": "Do not show dialog again"
+ },
+ {
+  "id": "rxUploadHint",
+  "source": "Caution! Do not interrupt the power supply to the RX controller!"
+ }
+]

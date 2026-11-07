@@ -1,0 +1,31 @@
+# 原程序资源：绝不入库（见 NOTICE.md）
+*.asar
+*.asar.orig
+resources/
+extracted/
+build/
+out/
+.work/
+*.exe
+*.dll
+*.pri
+*.p7x
+main.*.js
+main*.js.orig
+*.orig
+
+# 官方语言包全文（仓库只保留抽取后的 id+source 与中文译文）
+messages.de.xlf
+messages.en.xlf
+messages.es.xlf
+messages.fr.xlf
+messages.nl.xlf
+messages.pt.xlf
+messages.ru.xlf
+messages.ua.xlf
+
+# 工具与系统
+node_modules/
+*.log
+Thumbs.db
+desktop.ini

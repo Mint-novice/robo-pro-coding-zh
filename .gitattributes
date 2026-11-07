@@ -1,0 +1,4 @@
+# 统一换行：文本 LF，Windows 批处理 CRLF
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
