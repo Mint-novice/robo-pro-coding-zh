@@ -1,0 +1,434 @@
+[
+ {
+  "id": "FT_UTIL_THREAD_SUFFIX_TITLE",
+  "source": "in a thread"
+ },
+ {
+  "id": "FT_UTIL_THREAD_TOOLTIP",
+  "source": "The passed function will be executed in a thread."
+ },
+ {
+  "id": "FT_UTIL_TO_JSON_TITLE",
+  "source": "map to JSON"
+ },
+ {
+  "id": "FT_UTIL_TO_JSON_TOOLTIP",
+  "source": "Parse element to JSON string"
+ },
+ {
+  "id": "FT_UTIL_FROM_JSON_TITLE",
+  "source": "JSON to map"
+ },
+ {
+  "id": "FT_UTIL_FROM_JSON_TOOLTIP",
+  "source": "Parse JSON string to list"
+ },
+ {
+  "id": "FT_UTIL_PYTHON_TITLE",
+  "source": "python code"
+ },
+ {
+  "id": "FT_UTIL_PYTHON_TOOLTIP",
+  "source": "The passed Python code is executed at this point."
+ },
+ {
+  "id": "FT_UTIL_PYTHON_IMPORTS_TITLE",
+  "source": "python imports %1 %2"
+ },
+ {
+  "id": "FT_UTIL_PYTHON_IMPORTS_TOOLTIP",
+  "source": "The passed Python imports are inserted at the beginning."
+ },
+ {
+  "id": "FT_UTIL_RUNTIME_MEASUREMENT_TITLE",
+  "source": "Timestamp"
+ },
+ {
+  "id": "FT_UTIL_RUNTIME_MEASUREMENT_TOOLTIP",
+  "source": "Creates a timestamp which can be assigned to a variable."
+ },
+ {
+  "id": "FT_FILE_OPEN_TITLE",
+  "source": "open file %1 with mode %2"
+ },
+ {
+  "id": "FT_FILE_OPEN_TOOLTIP",
+  "source": "Opens a filedescriptor in given mode."
+ },
+ {
+  "id": "FT_FILE_EXIST_TITLE",
+  "source": "does exist %1"
+ },
+ {
+  "id": "FT_FILE_EXIST_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_FILE_READ_TITLE",
+  "source": "read file %1 as text"
+ },
+ {
+  "id": "FT_FILE_READ_TOOLTIP",
+  "source": "Reads a text from a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_WRITE_TITLE",
+  "source": "write %1 to file %2 %3 new line at end %4"
+ },
+ {
+  "id": "FT_FILE_WRITE_TOOLTIP",
+  "source": "Writes a text to a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_READ_AS_LIST_TITLE",
+  "source": "read file %1 line by line as list"
+ },
+ {
+  "id": "FT_FILE_READ_AS_LIST_TOOLTIP",
+  "source": "Reads a list from a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_WRITE_AS_LIST_TITLE",
+  "source": "write list %1 to file %2 line by line"
+ },
+ {
+  "id": "FT_FILE_WRITE_AS_LIST_TOOLTIP",
+  "source": "Writes a list to a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_CLOSE_TITLE",
+  "source": "close file %1"
+ },
+ {
+  "id": "FT_FILE_CLOSE_TOOLTIP",
+  "source": "Closes a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_FLUSH_TITLE",
+  "source": "flush file %1"
+ },
+ {
+  "id": "FT_FILE_FLUSH_TOOLTIP",
+  "source": "Flushes a filedescriptor."
+ },
+ {
+  "id": "FT_FILE_MKDIR_TITLE",
+  "source": "make directory %1"
+ },
+ {
+  "id": "FT_FILE_MKDIR_TOOLTIP",
+  "source": "Creates a directory to given path."
+ },
+ {
+  "id": "FT_COUNTER_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_COUNTER_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_MOTOR_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_MOTOR_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_INPUT_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_INPUT_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_OUTPUT_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_OUTPUT_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_I2C_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_I2C_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_SOUND_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_SOUND_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_USB_EVENT_TITLE",
+  "source": "Start each time"
+ },
+ {
+  "id": "FT_USB_EVENT_TOOLTIP",
+  "source": "Start, if the sensor or actuator contour is true."
+ },
+ {
+  "id": "FT_SOUND_PLAY_AUDIO_FILE_TITLE",
+  "source": "%1 start playing audio file %2 %3"
+ },
+ {
+  "id": "FT_SOUND_PLAY_AUDIO_FILE_TOOLTIP",
+  "source": "Plays the selected audio file. "
+ },
+ {
+  "id": "FT_SOUND_IS_PLAYING_AUDIO_FILE_TITLE",
+  "source": "is playing sound"
+ },
+ {
+  "id": "FT_SOUND_IS_PLAYING_AUDIO_FILE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_SOUND_PLAY_CUSTOM_AUDIO_FILE_TITLE",
+  "source": "%1 start playing own audio file %2 %3"
+ },
+ {
+  "id": "FT_SOUND_PLAY_CUSTOM_AUDIO_FILE_TOOLTIP",
+  "source": "Plays the entered audio file."
+ },
+ {
+  "id": "FT_SOUND_STOP_AUDIO_FILE_TITLE",
+  "source": "stop playing audio file"
+ },
+ {
+  "id": "FT_SOUND_STOP_AUDIO_FILE_TOOLTIP",
+  "source": "Stops playing the audio file."
+ },
+ {
+  "id": "FT_USB_CAMERA_TITLE",
+  "source": "Camera"
+ },
+ {
+  "id": "FT_USB_CAMERA_BALL_GET_VALUE_TITLE",
+  "source": "%1 get %2 of ball %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_BALL_GET_VALUE_TOOLTIP",
+  "source": "Returns selected value of ball."
+ },
+ {
+  "id": "FT_USB_CAMERA_BALL_IF_VALUE_TITLE",
+  "source": "%1 is %2 of ball %3 %4 %5"
+ },
+ {
+  "id": "FT_USB_CAMERA_BALL_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_GET_COLOR_TITLE",
+  "source": "%1 get color of line %2 from %3 list as %4"
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_GET_COLOR_TOOLTIP",
+  "source": "Returns the color of line in HEX or RGB."
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_IF_COLOR_TITLE",
+  "source": "%1 is color of line %2 from %3 list %4 %5 hue tolerance %6 degree"
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_IF_COLOR_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_GET_VALUE_TITLE",
+  "source": "%1 get %2 of line %3 from %4 list"
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_GET_VALUE_TOOLTIP",
+  "source": "Returns selected value of line."
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_IF_VALUE_TITLE",
+  "source": "%1 is %2 of line %3 from %4 list %5 %6"
+ },
+ {
+  "id": "FT_USB_CAMERA_LINE_IF_VALUE_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_USB_CAMERA_COLOR_GET_VALUE_TITLE",
+  "source": "%1 get color %2 as %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_COLOR_GET_VALUE_TOOLTIP",
+  "source": "Returns the color in HEX or RGB."
+ },
+ {
+  "id": "FT_USB_CAMERA_COLOR_IF_VALUE_TITLE",
+  "source": "%1 is color %2 %3 %4 hue tolerance %5 degree"
+ },
+ {
+  "id": "FT_USB_CAMERA_COLOR_IF_VALUE_TOOLTIP",
+  "source": "If true, the colors are equal."
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_BALL_DETECTED_TITLE",
+  "source": "on ball %1 detected: event %2 %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_BALL_DETECTED_TOOLTIP",
+  "source": "The event occurs when a ball is detected."
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_COLOR_DETECTED_TITLE",
+  "source": "on color %1 detected: event %2 %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_COLOR_DETECTED_TOOLTIP",
+  "source": "The event occurs when a color is detected."
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_LINES_DETECTED_TITLE",
+  "source": "on lines %1 detected: event list %2 %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_LINES_DETECTED_TOOLTIP",
+  "source": "The event occurs when a line is detected."
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_MOTION_DETECTED_TITLE",
+  "source": "on motion %1 detected: event %2 %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_MOTION_DETECTED_TOOLTIP",
+  "source": "The event occurs when a motion is detected."
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_IMAGE_CHANGE_TITLE",
+  "source": "on image %1 change: event %2 %3"
+ },
+ {
+  "id": "FT_USB_CAMERA_ON_IMAGE_CHANGE_TOOLTIP",
+  "source": "The event occurs when a new image is available."
+ },
+ {
+  "id": "FT_USB_CAMERA_DETECTION_EVENT_TITLE",
+  "source": "event"
+ },
+ {
+  "id": "FT_USB_CAMERA_DETECTION_EVENT_TOOLTIP",
+  "source": "The callback response."
+ },
+ {
+  "id": "FT_USB_CAMERA_IMAGE_TO_BASE64_TITLE",
+  "source": "%1 convert image %2 to base64"
+ },
+ {
+  "id": "FT_USB_CAMERA_IMAGE_TO_BASE64_TOOLTIP",
+  "source": "Returns the image in base64 decoded string."
+ },
+ {
+  "id": "FT_USB_CAMERA_GET_FRAME_TITLE",
+  "source": "get frame from %1"
+ },
+ {
+  "id": "FT_USB_CAMERA_GET_FRAME_TOOLTIP",
+  "source": "Returns current frame from selected camera"
+ },
+ {
+  "id": "FT_USB_MICROPHONE_TITLE",
+  "source": "Microphone"
+ },
+ {
+  "id": "FT_USB_MICROPHONE_VOLUME_TITLE",
+  "source": "%1 microphone %2 volume"
+ },
+ {
+  "id": "FT_USB_MICROPHONE_VOLUME_TOOLTIP",
+  "source": "Returns the volume in decibels"
+ },
+ {
+  "id": "FT_USB_MICROPHONE_IF_VOLUME_TITLE",
+  "source": "%1 microphone %2 volume %3 %4"
+ },
+ {
+  "id": "FT_USB_MICROPHONE_IF_VOLUME_TOOLTIP",
+  "source": "If true, the condition was met."
+ },
+ {
+  "id": "FT_COMMON_X_POSITION",
+  "source": "x - position"
+ },
+ {
+  "id": "FT_COMMON_Y_POSITION",
+  "source": "y - position"
+ },
+ {
+  "id": "FT_COMMON_POSITION",
+  "source": "position"
+ },
+ {
+  "id": "FT_COMMON_ANGLE",
+  "source": "angle"
+ },
+ {
+  "id": "FT_COMMON_DIAMETER",
+  "source": "diameter"
+ },
+ {
+  "id": "FT_COMMON_RADIUS",
+  "source": "radius"
+ },
+ {
+  "id": "FT_COMMON_WIDTH",
+  "source": "width"
+ },
+ {
+  "id": "FT_COMMON_ON",
+  "source": "on"
+ },
+ {
+  "id": "FT_COMMON_OFF",
+  "source": "off"
+ },
+ {
+  "id": "FT_COMMON_CW",
+  "source": "cw"
+ },
+ {
+  "id": "FT_COMMON_CCW",
+  "source": "ccw"
+ },
+ {
+  "id": "FT_COMMON_COASTING",
+  "source": "coasting"
+ },
+ {
+  "id": "FT_COMMON_BRAKED",
+  "source": "braked"
+ },
+ {
+  "id": "FT_COMMON_OPEN",
+  "source": "open"
+ },
+ {
+  "id": "FT_COMMON_CLOSED",
+  "source": "closed"
+ },
+ {
+  "id": "FT_COMMON_RESISTANCE",
+  "source": "resistance"
+ },
+ {
+  "id": "FT_COMMON_TEMPERATURE",
+  "source": "temperature"
+ },
+ {
+  "id": "FT_COMMON_BRIGHT",
+  "source": "bright"
+ }
+]

@@ -1,0 +1,434 @@
+[
+ {
+  "id": "advanced",
+  "source": "Advanced"
+ },
+ {
+  "id": "advancedSub",
+  "source": "All Actuators and Sensor blocks, Variables and Functions"
+ },
+ {
+  "id": "expert",
+  "source": "Expert"
+ },
+ {
+  "id": "expertSub",
+  "source": "All Actuators and Sensor blocks, Lists, Variables and Functions"
+ },
+ {
+  "id": "HttpErrorResponse",
+  "source": "No connection to the internet."
+ },
+ {
+  "id": "HttpErrorResponse_401",
+  "source": "Your access token is not valid."
+ },
+ {
+  "id": "HttpErrorResponse_403",
+  "source": "Your access token does not have the necessary rights for this operation."
+ },
+ {
+  "id": "ProjectImportError_100",
+  "source": "The project is invalid and cannot be loaded."
+ },
+ {
+  "id": "ProjectImportError_200",
+  "source": "The project is broken and cannot be repaired."
+ },
+ {
+  "id": "ProjectImportError_300",
+  "source": "Project was created with a newer version of ROBO Pro Coding, please update ROBO Pro Coding."
+ },
+ {
+  "id": "chooseFileType",
+  "source": "Choose a file type"
+ },
+ {
+  "id": "fileTypeCamera",
+  "source": "Camera"
+ },
+ {
+  "id": "fileTypeDisplay",
+  "source": "Display"
+ },
+ {
+  "id": "fileTypeSourceCode",
+  "source": "Source Code"
+ },
+ {
+  "id": "fileTypeNeuralNetwork",
+  "source": "Neural Network"
+ },
+ {
+  "id": "fileTypeRemoteControl",
+  "source": "Control Panel"
+ },
+ {
+  "id": "uploadFile",
+  "source": "Upload file"
+ },
+ {
+  "id": "downloadFile",
+  "source": "Download file"
+ },
+ {
+  "id": "projectSettings",
+  "source": "Project settings"
+ },
+ {
+  "id": "viewHint",
+  "source": "Controls the type of programming."
+ },
+ {
+  "id": "viewAdvancedMode",
+  "source": "Graphical programming"
+ },
+ {
+  "id": "viewProfessionalMode",
+  "source": "Python programming"
+ },
+ {
+  "id": "switchToProfessionalMode",
+  "source": "After switching to python programming, you cannot switch back."
+ },
+ {
+  "id": "switchController",
+  "source": "After switching to the controller, the project will automatically convert."
+ },
+ {
+  "id": "controllerHint",
+  "source": "Controls which controller the project uses."
+ },
+ {
+  "id": "newFile",
+  "source": "New File"
+ },
+ {
+  "id": "newFolder",
+  "source": "New Folder"
+ },
+ {
+  "id": "renameFolder",
+  "source": "Rename Folder"
+ },
+ {
+  "id": "renameFile",
+  "source": "Rename File"
+ },
+ {
+  "id": "renameProject",
+  "source": "Rename Project"
+ },
+ {
+  "id": "deleteQuestion",
+  "source": "Are you sure you want to delete this file?"
+ },
+ {
+  "id": "programStarts",
+  "source": "Program starts ..."
+ },
+ {
+  "id": "programFinished",
+  "source": "Program finished."
+ },
+ {
+  "id": "debugModeNotAllowed",
+  "source": "Debug mode is not available because the program includes a remote control."
+ },
+ {
+  "id": "minorTickmarkCount",
+  "source": "Minor tickmark count"
+ },
+ {
+  "id": "tickmarkStepSize",
+  "source": "Tickmark step size"
+ },
+ {
+  "id": "noElementSelectedInfo",
+  "source": "No element selected."
+ },
+ {
+  "id": "lockX",
+  "source": "Lock - X"
+ },
+ {
+  "id": "lockY",
+  "source": "Lock - Y"
+ },
+ {
+  "id": "nameIsNeeded",
+  "source": "Name is needed"
+ },
+ {
+  "id": "terminatesAllPrograms",
+  "source": "All running programs will be terminated."
+ },
+ {
+  "id": "toolbarColorPickr",
+  "source": "Pick color"
+ },
+ {
+  "id": "hueTolerance",
+  "source": "Hue tolerance"
+ },
+ {
+  "id": "numberOfLines",
+  "source": "Number of lines"
+ },
+ {
+  "id": "lineWidth",
+  "source": "Line width"
+ },
+ {
+  "id": "rangeXAxis",
+  "source": "Range x axis"
+ },
+ {
+  "id": "warningRxControllerAddRemoteControl",
+  "source": "Adding a control panel may result in changes to your project, as the RX controller is controlled remotely (no program execution on the controller). Do you want to continue?"
+ },
+ {
+  "id": "FT_START_TITLE",
+  "source": "program start"
+ },
+ {
+  "id": "FT_START_TOOLTIP",
+  "source": "The program starts at this point."
+ },
+ {
+  "id": "FT_LOOP_ENDLESS_TITLE",
+  "source": "repeat forever"
+ },
+ {
+  "id": "FT_LOOP_ENDLESS_TOOLTIP",
+  "source": "Do some statements forever."
+ },
+ {
+  "id": "FT_DISPLAY_EVENT_TITLE",
+  "source": "event"
+ },
+ {
+  "id": "FT_DISPLAY_EVENT_TOOLTIP",
+  "source": "The event response."
+ },
+ {
+  "id": "FT_DISPLAY_SET_CAMERA_IMAGE_TITLE",
+  "source": "%1 set image %2 base64 image %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_CAMERA_IMAGE_TOOLTIP",
+  "source": "Set a base64 image (e.g. from usb camera) to the display image."
+ },
+ {
+  "id": "FT_DISPLAY_SET_LABEL_TEXT_TITLE",
+  "source": "%1 set label %2 text %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_LABEL_TEXT_TOOLTIP",
+  "source": "Set a specified text to the label."
+ },
+ {
+  "id": "FT_DISPLAY_SET_INPUT_TEXT_TITLE",
+  "source": "%1 set input %2 text %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_INPUT_TEXT_TOOLTIP",
+  "source": "Set a specified text to the input."
+ },
+ {
+  "id": "FT_DISPLAY_SET_GAUGE_VALUE_TITLE",
+  "source": "%1 set gauge %2 value %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_GAUGE_VALUE_TOOLTIP",
+  "source": "Set a specified value to the gauge."
+ },
+ {
+  "id": "FT_DISPLAY_SET_SLIDER_VALUE_TITLE",
+  "source": "%1 set slider %2 value %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_SLIDER_VALUE_TOOLTIP",
+  "source": "Set a specified value to the slider."
+ },
+ {
+  "id": "FT_DISPLAY_SET_SWITCH_PROPERTY_TITLE",
+  "source": "%1 set switch %2 %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_SET_SWITCH_PROPERTY_TOOLTIP",
+  "source": "Set checked or enabled of switch to true or false"
+ },
+ {
+  "id": "FT_DISPLAY_SET_CHECKBOX_PROPERTY_TITLE",
+  "source": "%1 set checkbox %2 %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_SET_CHECKBOX_PROPERTY_TOOLTIP",
+  "source": "Set checked or enabled of checkbox to true or false"
+ },
+ {
+  "id": "FT_DISPLAY_SET_STATUS_INDICATOR_ACTIVE_TITLE",
+  "source": "%1 set status indicator %2 active %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_STATUS_INDICATOR_ACTIVE_TOOLTIP",
+  "source": "Set active of status indicator to true or false"
+ },
+ {
+  "id": "FT_DISPLAY_SET_BUTTON_ENABLED_TITLE",
+  "source": "%1 set button %2 enabled %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_BUTTON_ENABLED_TOOLTIP",
+  "source": "Set enabled of button to true or false"
+ },
+ {
+  "id": "FT_DISPLAY_SET_SLIDER_ENABLED_TITLE",
+  "source": "%1 set slider %2 enabled %3"
+ },
+ {
+  "id": "FT_DISPLAY_SET_SLIDER_ENABLED_TOOLTIP",
+  "source": "Set enabled of slider to true or false"
+ },
+ {
+  "id": "FT_DISPLAY_ON_SLIDER_MOVED_TITLE",
+  "source": "%1 on slider %2 moved: event %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_ON_SLIDER_MOVED_TOOLTIP",
+  "source": "The event occurs when the slider moved."
+ },
+ {
+  "id": "FT_DISPLAY_ON_SWITCH_TOGGLED_TITLE",
+  "source": "%1 on switch %2 toggled: event %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_ON_SWITCH_TOGGLED_TOOLTIP",
+  "source": "The event occurs when the switch toggled."
+ },
+ {
+  "id": "FT_DISPLAY_ON_BUTTON_CLICKED_TITLE",
+  "source": "%1 on button %2 clicked: event %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_ON_BUTTON_CLICKED_TOOLTIP",
+  "source": "The event occurs when the button clicked."
+ },
+ {
+  "id": "FT_DISPLAY_ON_CHECKBOX_CHECKED_TITLE",
+  "source": "%1 on checkbox %2 toggled: event %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_ON_CHECKBOX_CHECKED_TOOLTIP",
+  "source": "The event occurs when the checkbox changed."
+ },
+ {
+  "id": "FT_DISPLAY_ON_INPUT_ACCEPTED_TITLE",
+  "source": "%1 on input %2 completed: event %3 %4"
+ },
+ {
+  "id": "FT_DISPLAY_ON_INPUT_ACCEPTED_TOOLTIP",
+  "source": "The event occurs when the input is done."
+ },
+ {
+  "id": "FT_DISPLAY_GET_SWITCH_STATE_TITLE",
+  "source": "%1 is switch %2 %3"
+ },
+ {
+  "id": "FT_DISPLAY_GET_SWITCH_STATE_TOOLTIP",
+  "source": "Get the current state of the switch."
+ },
+ {
+  "id": "FT_DISPLAY_GET_BUTTON_STATE_TITLE",
+  "source": "%1 is button %2 enabled"
+ },
+ {
+  "id": "FT_DISPLAY_GET_BUTTON_STATE_TOOLTIP",
+  "source": "Get the current state of the button."
+ },
+ {
+  "id": "FT_DISPLAY_GET_CHECKBOX_STATE_TITLE",
+  "source": "%1 is checkbox %2 %3"
+ },
+ {
+  "id": "FT_DISPLAY_GET_CHECKBOX_STATE_TOOLTIP",
+  "source": "Get the current state of the checkbox."
+ },
+ {
+  "id": "FT_DISPLAY_GET_STATUS_INDICATOR_STATE_TITLE",
+  "source": "%1 is status indicator %2 active"
+ },
+ {
+  "id": "FT_DISPLAY_GET_STATUS_INDICATOR_STATE_TOOLTIP",
+  "source": "Get the current state of the status indicator."
+ },
+ {
+  "id": "FT_DISPLAY_GET_GAUGE_VALUE_TITLE",
+  "source": "%1 get gauge %2 value"
+ },
+ {
+  "id": "FT_DISPLAY_GET_GAUGE_VALUE_TOOLTIP",
+  "source": "Get the current value of the gauge."
+ },
+ {
+  "id": "FT_DISPLAY_GET_SLIDER_VALUE_TITLE",
+  "source": "%1 get slider %2 value"
+ },
+ {
+  "id": "FT_DISPLAY_GET_SLIDER_VALUE_TOOLTIP",
+  "source": "Get the current value of the slider."
+ },
+ {
+  "id": "FT_DISPLAY_GET_SLIDER_STATE_TITLE",
+  "source": "i%1 is slider %2 enabled"
+ },
+ {
+  "id": "FT_DISPLAY_GET_SLIDER_STATE_TOOLTIP",
+  "source": "Get the current state of the slider."
+ },
+ {
+  "id": "FT_DISPLAY_GET_INPUT_TEXT_TITLE",
+  "source": "%1 get input %2 text"
+ },
+ {
+  "id": "FT_DISPLAY_GET_INPUT_TEXT_TOOLTIP",
+  "source": "Get the current text of the input."
+ },
+ {
+  "id": "FT_DISPLAY_GET_LABEL_TEXT_TITLE",
+  "source": "%1 get label %2 text"
+ },
+ {
+  "id": "FT_DISPLAY_GET_LABEL_TEXT_TOOLTIP",
+  "source": "Get the current text of the label."
+ },
+ {
+  "id": "FT_UTIL_COMMENT_TITLE",
+  "source": "Comment"
+ },
+ {
+  "id": "FT_UTIL_COMMENT_TOOLTIP",
+  "source": "Insert a comment."
+ },
+ {
+  "id": "FT_UTIL_WAIT_FOR_TITLE",
+  "source": "wait"
+ },
+ {
+  "id": "FT_UTIL_WAIT_FOR_TOOLTIP",
+  "source": "Pauses the program for a certain time."
+ },
+ {
+  "id": "FT_UTIL_WAIT_UNTIL_TITLE",
+  "source": "wait until"
+ },
+ {
+  "id": "FT_UTIL_WAIT_UNTIL_TOOLTIP",
+  "source": "Pauses the program until the condition is met."
+ },
+ {
+  "id": "FT_UTIL_THREAD_TITLE",
+  "source": "execute function"
+ }
+]

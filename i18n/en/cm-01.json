@@ -1,0 +1,114 @@
+[
+ {
+  "id": "ngxCodemirrorControlCharacter",
+  "source": "Control character"
+ },
+ {
+  "id": "ngxCodemirrorSelectionDeleted",
+  "source": "Selection deleted"
+ },
+ {
+  "id": "ngxCodemirrorFoldedLines",
+  "source": "Folded lines"
+ },
+ {
+  "id": "ngxCodemirrorUnfoldedLines",
+  "source": "Unfolded lines"
+ },
+ {
+  "id": "ngxCodemirrorTo",
+  "source": "to"
+ },
+ {
+  "id": "ngxCodemirrorFoldedCode",
+  "source": "folded code"
+ },
+ {
+  "id": "ngxCodemirrorUnfold",
+  "source": "unfold"
+ },
+ {
+  "id": "ngxCodemirrorFoldLine",
+  "source": "Fold line"
+ },
+ {
+  "id": "ngxCodemirrorUnfoldLine",
+  "source": "Unfold line"
+ },
+ {
+  "id": "ngxCodemirrorGoToLine",
+  "source": "Go to line"
+ },
+ {
+  "id": "ngxCodemirrorGo",
+  "source": "go"
+ },
+ {
+  "id": "ngxCodemirrorPlaceholderFind",
+  "source": "Find"
+ },
+ {
+  "id": "ngxCodemirrorPlaceholderReplace",
+  "source": "Replace"
+ },
+ {
+  "id": "ngxCodemirrorNext",
+  "source": "next"
+ },
+ {
+  "id": "ngxCodemirrorPrevious",
+  "source": "previous"
+ },
+ {
+  "id": "ngxCodemirrorAll",
+  "source": "all"
+ },
+ {
+  "id": "ngxCodemirrorMatchCase",
+  "source": "match case"
+ },
+ {
+  "id": "ngxCodemirrorByWord",
+  "source": "by word"
+ },
+ {
+  "id": "ngxCodemirrorReplace",
+  "source": "replace"
+ },
+ {
+  "id": "ngxCodemirrorReplaceAll",
+  "source": "replace all"
+ },
+ {
+  "id": "ngxCodemirrorClose",
+  "source": "close"
+ },
+ {
+  "id": "ngxCodemirrorCurrentMatch",
+  "source": "current match"
+ },
+ {
+  "id": "ngxCodemirrorReplacedMatches",
+  "source": "replaced $ matches"
+ },
+ {
+  "id": "ngxCodemirrorReplacedMatchOnLine",
+  "source": "replaced match on line $"
+ },
+ {
+  "id": "ngxCodemirrorOnLine",
+  "source": "on line"
+ },
+ {
+  "id": "ngxCodemirrorCompletions",
+  "source": "Completions"
+ },
+ {
+  "id": "ngxCodemirrorDiagnostics",
+  "source": "Diagnostics"
+ },
+ {
+  "id": "ngxCodemirrorNoDiagnostics",
+  "source": "No diagnostics"
+ }
+]

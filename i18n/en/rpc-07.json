@@ -1,0 +1,434 @@
+[
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_RIGHT_SHIFT",
+  "source": "Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off."
+ },
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_AND",
+  "source": "Sets each bit to 1 if both bits are 1."
+ },
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_OR",
+  "source": "Sets each bit to 1 if one of two bits is 1."
+ },
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_XOR",
+  "source": "Sets each bit to 1 if only one of two bits is 1."
+ },
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_NOT",
+  "source": "Inverts all the bits."
+ },
+ {
+  "id": "FT_MATH_MAP_TITLE",
+  "source": "map %1 from low %2 from height %3 to low %4 to height %5"
+ },
+ {
+  "id": "FT_MATH_MAP_TOOLTIP",
+  "source": "Re-maps a number from one range to another. "
+ },
+ {
+  "id": "SEARCH_CATEGORY",
+  "source": "Search"
+ },
+ {
+  "id": "SEARCH_PLACEHOLDER",
+  "source": "Search"
+ },
+ {
+  "id": "FT_TOOLBOX_LEARNING_LEVEL",
+  "source": "Learning level"
+ },
+ {
+  "id": "FT_TOOLBOX_ACTUATORS",
+  "source": "Actuators"
+ },
+ {
+  "id": "FT_TOOLBOX_SENSORS",
+  "source": "Sensors"
+ },
+ {
+  "id": "FT_TOOLBOX_PROCESSING",
+  "source": "Processing"
+ },
+ {
+  "id": "FT_TOOLBOX_COMMUNICATION",
+  "source": "Communication"
+ },
+ {
+  "id": "FT_TOOLBOX_OUTPUT",
+  "source": "Output"
+ },
+ {
+  "id": "FT_TOOLBOX_MOTOR",
+  "source": "Motor"
+ },
+ {
+  "id": "FT_TOOLBOX_SOUND",
+  "source": "Sound"
+ },
+ {
+  "id": "FT_TOOLBOX_DISPLAY",
+  "source": "Display"
+ },
+ {
+  "id": "FT_TOOLBOX_INPUT",
+  "source": "Input"
+ },
+ {
+  "id": "FT_TOOLBOX_COUNTER",
+  "source": "Counter"
+ },
+ {
+  "id": "FT_TOOLBOX_I2C",
+  "source": "I2C"
+ },
+ {
+  "id": "FT_TOOLBOX_USB",
+  "source": "USB"
+ },
+ {
+  "id": "FT_TOOLBOX_VOICE_CONTROL",
+  "source": "Voice Control"
+ },
+ {
+  "id": "FT_TOOLBOX_REMOTE_CONTROL",
+  "source": "Remote Control"
+ },
+ {
+  "id": "FT_TOOLBOX_LOGIC",
+  "source": "Logic"
+ },
+ {
+  "id": "FT_TOOLBOX_LOOPS",
+  "source": "Loops"
+ },
+ {
+  "id": "FT_TOOLBOX_MATH",
+  "source": "Math"
+ },
+ {
+  "id": "FT_TOOLBOX_TEXT",
+  "source": "Text"
+ },
+ {
+  "id": "FT_TOOLBOX_MQTT",
+  "source": "Cloud / MQTT"
+ },
+ {
+  "id": "FT_TOOLBOX_NEURAL_NETWORK",
+  "source": "Neural Network (NN)"
+ },
+ {
+  "id": "FT_TOOLBOX_MACHINE_LEARNING",
+  "source": "Machine Learning"
+ },
+ {
+  "id": "FT_TOOLBOX_DATA_STRUCTURES",
+  "source": "Data structures"
+ },
+ {
+  "id": "FT_TOOLBOX_LISTS",
+  "source": "Lists"
+ },
+ {
+  "id": "FT_TOOLBOX_MAP",
+  "source": "Map"
+ },
+ {
+  "id": "FT_TOOLBOX_JSON",
+  "source": "JSON"
+ },
+ {
+  "id": "FT_TOOLBOX_UTIL",
+  "source": "Util"
+ },
+ {
+  "id": "FT_TOOLBOX_VARIABLES",
+  "source": "Variables"
+ },
+ {
+  "id": "FT_TOOLBOX_FUNCTIONS",
+  "source": "Functions"
+ },
+ {
+  "id": "FT_TOOLBOX_IMPORTS",
+  "source": "Imports"
+ },
+ {
+  "id": "FT_TOOLBOX_IMPORTS_NOT_AVAILABLE",
+  "source": "no imports from other source code files available"
+ },
+ {
+  "id": "FT_TOOLBOX_CONTROLLER",
+  "source": "Controller"
+ },
+ {
+  "id": "FT_TOOLBOX_ADD_CAMERA_FILE",
+  "source": "Add camera configuration"
+ },
+ {
+  "id": "FT_TOOLBOX_ADD_NEURAL_NETWORK_FILE",
+  "source": "Add neural network configuration"
+ },
+ {
+  "id": "FT_TOOLBOX_ADD_DISPLAY_FILE",
+  "source": "Add display configuration"
+ },
+ {
+  "id": "FT_TOOLBOX_ADD_REMOTE_CONTROL_FILE",
+  "source": "Add remote control configuration"
+ },
+ {
+  "id": "FT_TOOLBOX_ADD_CONTROLLER",
+  "source": "Add controller"
+ },
+ {
+  "id": "FT_TOOLBOX_FILE",
+  "source": "File"
+ },
+ {
+  "id": "FT_TOOLBOX_MQTT_FT_CLOUD",
+  "source": "fischertechnik cloud"
+ },
+ {
+  "id": "FT_TOOLBOX_MQTT_CLIENT",
+  "source": "MQTT client"
+ },
+ {
+  "id": "FT_TOOLBOX_HTTP",
+  "source": "HTTP"
+ },
+ {
+  "id": "contextMenuPaste",
+  "source": "Paste here"
+ },
+ {
+  "id": "contextMenuDuplicate",
+  "source": "Duplicate"
+ },
+ {
+  "id": "name",
+  "source": "Name"
+ },
+ {
+  "id": "host",
+  "source": "Host"
+ },
+ {
+  "id": "port",
+  "source": "Port"
+ },
+ {
+  "id": "username",
+  "source": "Username"
+ },
+ {
+  "id": "password",
+  "source": "Password"
+ },
+ {
+  "id": "mqttBroker",
+  "source": "MQTT-Client"
+ },
+ {
+  "id": "disconnect",
+  "source": "disconnect"
+ },
+ {
+  "id": "isConnected",
+  "source": "is connected"
+ },
+ {
+  "id": "publish",
+  "source": "publish"
+ },
+ {
+  "id": "subscribe",
+  "source": "subscribe: message"
+ },
+ {
+  "id": "willSet",
+  "source": "set will"
+ },
+ {
+  "id": "filedescriptor",
+  "source": "Filedescriptor"
+ },
+ {
+  "id": "mode",
+  "source": "Mode"
+ },
+ {
+  "id": "read",
+  "source": "read"
+ },
+ {
+  "id": "write",
+  "source": "write"
+ },
+ {
+  "id": "append",
+  "source": "append"
+ },
+ {
+  "id": "readWrite",
+  "source": "read + write"
+ },
+ {
+  "id": "readAppend",
+  "source": "read + append"
+ },
+ {
+  "id": "ballDetection",
+  "source": "Ball detection"
+ },
+ {
+  "id": "diameter",
+  "source": "Diameter"
+ },
+ {
+  "id": "colorDetection",
+  "source": "Color detection"
+ },
+ {
+  "id": "red",
+  "source": "Red"
+ },
+ {
+  "id": "green",
+  "source": "Green"
+ },
+ {
+  "id": "blue",
+  "source": "Blue"
+ },
+ {
+  "id": "hue",
+  "source": "Hue"
+ },
+ {
+  "id": "saturation",
+  "source": "Saturation"
+ },
+ {
+  "id": "value",
+  "source": "Value"
+ },
+ {
+  "id": "lineDetection",
+  "source": "Line detection"
+ },
+ {
+  "id": "line",
+  "source": "Line"
+ },
+ {
+  "id": "position",
+  "source": "Position"
+ },
+ {
+  "id": "width",
+  "source": "Width"
+ },
+ {
+  "id": "motionDetection",
+  "source": "Motion detection"
+ },
+ {
+  "id": "motion",
+  "source": "Motion"
+ },
+ {
+  "id": "size",
+  "source": "Size"
+ },
+ {
+  "id": "height",
+  "source": "Height"
+ },
+ {
+  "id": "identity",
+  "source": "Identity"
+ },
+ {
+  "id": "text",
+  "source": "Text"
+ },
+ {
+  "id": "enabled",
+  "source": "Enabled"
+ },
+ {
+  "id": "checked",
+  "source": "Checked"
+ },
+ {
+  "id": "active",
+  "source": "Active"
+ },
+ {
+  "id": "color",
+  "source": "Color"
+ },
+ {
+  "id": "orientation",
+  "source": "Orientation"
+ },
+ {
+  "id": "from",
+  "source": "From"
+ },
+ {
+  "id": "to",
+  "source": "To"
+ },
+ {
+  "id": "image",
+  "source": "Image"
+ },
+ {
+  "id": "noElementsInfo",
+  "source": "No elements in viewport. Add some to access the layer viewer."
+ },
+ {
+  "id": "visibility",
+  "source": "Visibility"
+ },
+ {
+  "id": "remove",
+  "source": "Remove"
+ },
+ {
+  "id": "moduleNeuralNetworkTraining",
+  "source": "Training"
+ },
+ {
+  "id": "moduleNeuralNetworkTabErrorGraph",
+  "source": "Error Graph"
+ },
+ {
+  "id": "moduleNeuralNetworkTabNetworkGraph",
+  "source": "Network Graph"
+ },
+ {
+  "id": "moduleNeuralNetworkTabNetworkWeights",
+  "source": "Network Weights"
+ },
+ {
+  "id": "moduleNeuralNetworkTabTrainingData",
+  "source": "Training Data"
+ },
+ {
+  "id": "moduleNeuralNetworkAddRow",
+  "source": "Add row"
+ },
+ {
+  "id": "moduleNeuralNetworkImportCsv",
+  "source": "Import training data"
+ },
+ {
+  "id": "moduleNeuralNetworkImportCsvLocalFile",
+  "source": "Import file from device"
+ }
+]

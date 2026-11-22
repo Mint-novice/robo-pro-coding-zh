@@ -1,0 +1,434 @@
+[
+ {
+  "id": "FT_MQTT_WILL_SET_TITLE",
+  "source": "MQTT client %1 will set: topic %2 payload %3 qos %4 retain %5"
+ },
+ {
+  "id": "FT_MQTT_WILL_SET_TOOLTIP",
+  "source": "Set a Will to be sent to the broker. If the client disconnects without calling disconnect(), the broker will publish the message on its behalf."
+ },
+ {
+  "id": "FT_MQTT_CLIENT_TITLE",
+  "source": "MQTT client create: websockets %1"
+ },
+ {
+  "id": "FT_MQTT_CLIENT_TOOLTIP",
+  "source": "Create mqtt client."
+ },
+ {
+  "id": "FT_MQTT_CONNECT_TITLE",
+  "source": "MQTT client %1 connect: host %2 port %3 username %4 password %5"
+ },
+ {
+  "id": "FT_MQTT_CONNECT_TOOLTIP",
+  "source": "Connect to MQTT-Client."
+ },
+ {
+  "id": "FT_MQTT_DISCONNECT_TITLE",
+  "source": "MQTT client %1 disconnect"
+ },
+ {
+  "id": "FT_MQTT_DISCONNECT_TOOLTIP",
+  "source": "Disconnect from MQTT-Client."
+ },
+ {
+  "id": "FT_MQTT_EVENT_TITLE",
+  "source": "message"
+ },
+ {
+  "id": "FT_MQTT_EVENT_TOOLTIP",
+  "source": "A mqtt message."
+ },
+ {
+  "id": "FT_MQTT_IS_CONNECTED_TITLE",
+  "source": "MQTT client %1 is connected"
+ },
+ {
+  "id": "FT_MQTT_IS_CONNECTED_TOOLTIP",
+  "source": "If true, the connection to the MQTT client exists."
+ },
+ {
+  "id": "FT_MQTT_CALLBACK_TITLE",
+  "source": "subscribe callback %1: message"
+ },
+ {
+  "id": "FT_MQTT_CALLBACK_TOOLTIP",
+  "source": "Mqtt subscripe callback funtion."
+ },
+ {
+  "id": "FT_ML_IMAGE_CLASSIFIER_TITLE",
+  "source": "create image classifier for %1"
+ },
+ {
+  "id": "FT_ML_IMAGE_CLASSIFIER_TOOLTIP",
+  "source": "Classifies image based on chosen model."
+ },
+ {
+  "id": "FT_ML_CUSTOM_IMAGE_CLASSIFIER_TITLE",
+  "source": "create image classifier: path %1 model %2 label %3"
+ },
+ {
+  "id": "FT_ML_CUSTOM_IMAGE_CLASSIFIER_TOOLTIP",
+  "source": "Classifies image based on custom model."
+ },
+ {
+  "id": "FT_ML_OBJECT_DETECTOR_TITLE",
+  "source": "create object detector for %1"
+ },
+ {
+  "id": "FT_ML_OBJECT_DETECTOR_TOOLTIP",
+  "source": "Detects objects in given image based on chosen model."
+ },
+ {
+  "id": "FT_ML_CUSTOM_OBJECT_DETECTOR_TITLE",
+  "source": "create object detector: path %1 model %2 label %3"
+ },
+ {
+  "id": "FT_ML_CUSTOM_OBJECT_DETECTOR_TOOLTIP",
+  "source": "Detects objects in given image based on custom model."
+ },
+ {
+  "id": "FT_ML_PROCESS_IMAGE_TITLE",
+  "source": "process image %1 with %2"
+ },
+ {
+  "id": "FT_ML_PROCESS_IMAGE_TOOLTIP",
+  "source": "Processes an image with the given detector. The result is a list."
+ },
+ {
+  "id": "FT_ML_IS_LABEL_IN_RESULT_TITLE",
+  "source": "is label %1 %2 of %3 in result %4"
+ },
+ {
+  "id": "FT_ML_IS_LABEL_IN_RESULT_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_ML_IS_CUSTOM_LABEL_IN_RESULT_TITLE",
+  "source": "is label %1 in result %2"
+ },
+ {
+  "id": "FT_ML_IS_CUSTOM_LABEL_IN_RESULT_TOOLTIP",
+  "source": "If true, the condition is met."
+ },
+ {
+  "id": "FT_ML_GET_RESULT_FOR_LABEL_TITLE",
+  "source": "in result %1 get %2 for label %3 %4 of %5"
+ },
+ {
+  "id": "FT_ML_GET_RESULT_FOR_LABEL_TOOLTIP",
+  "source": "Gets result for selected label."
+ },
+ {
+  "id": "FT_ML_GET_RESULT_FOR_CUSTOM_LABEL_TITLE",
+  "source": "in result %1 get %2 for label %3"
+ },
+ {
+  "id": "FT_ML_GET_RESULT_FOR_CUSTOM_LABEL_TOOLTIP",
+  "source": "Gets result for selected label."
+ },
+ {
+  "id": "FT_ML_GET_PROPERTY_OF_OBJECT_TITLE",
+  "source": "get %1 of result item %2"
+ },
+ {
+  "id": "FT_ML_GET_PROPERTY_OF_OBJECT_TOOLTIP",
+  "source": "Gets the property of an individual result."
+ },
+ {
+  "id": "FT_DICTIONARY_GET_KEYS_TITLE",
+  "source": "in map %1 get keys as list"
+ },
+ {
+  "id": "FT_DICTIONARY_GET_KEYS_TOOLTIP",
+  "source": "Get keys from dictionary."
+ },
+ {
+  "id": "FT_DICTIONARY_GET_ITEM_TITLE",
+  "source": "in map %1 get element of key %2"
+ },
+ {
+  "id": "FT_DICTIONARY_GET_ITEM_TOOLTIP",
+  "source": "Get a element to a key."
+ },
+ {
+  "id": "FT_DICTIONARY_SET_ITEM_TITLE",
+  "source": "in map %1 to key %2 set element %3"
+ },
+ {
+  "id": "FT_DICTIONARY_SET_ITEM_TOOLTIP",
+  "source": "Set a element to a key."
+ },
+ {
+  "id": "FT_DICTIONARY_CREATE_TITLE",
+  "source": "create map with"
+ },
+ {
+  "id": "CUSTOM_CREATE_EMPTY_MAP",
+  "source": "create empty map"
+ },
+ {
+  "id": "FT_DICTIONARY_CREATE_TOOLTIP",
+  "source": "Creates a map."
+ },
+ {
+  "id": "FT_DICTIONARY_CREATE_ITEM_TITLE",
+  "source": "key %1 and value %2"
+ },
+ {
+  "id": "FT_DICTIONARY_CREATE_ITEM_TOOLTIP",
+  "source": "Creates a key value pair."
+ },
+ {
+  "id": "FT_HTTP_OFF_PAYLOAD_REQUEST_TITLE",
+  "source": "%1 Request to %2: headers %3"
+ },
+ {
+  "id": "FT_HTTP_PAYLOAD_REQUEST_TITLE",
+  "source": "%1 Request to %2: headers %3 payload %4"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_EVENT_TITLE",
+  "source": "event"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_EVENT_TOOLTIP",
+  "source": "The event response."
+ },
+ {
+  "id": "FT_COMMON_SLIDER",
+  "source": "slider"
+ },
+ {
+  "id": "FT_COMMON_BUTTON",
+  "source": "button"
+ },
+ {
+  "id": "FT_COMMON_JOYSTICK_X_AXIS",
+  "source": "joystick xAxis"
+ },
+ {
+  "id": "FT_COMMON_JOYSTICK_Y_AXIS",
+  "source": "joystick yAxis"
+ },
+ {
+  "id": "FT_COMMON_JOYSTICK",
+  "source": "joystick"
+ },
+ {
+  "id": "FT_COMMON_BLOCKED_AREA",
+  "source": "blocked area"
+ },
+ {
+  "id": "FT_COMMON_CHART",
+  "source": "chart"
+ },
+ {
+  "id": "FT_COMMON_CHECKBOX",
+  "source": "checkbox"
+ },
+ {
+  "id": "FT_COMMON_GAUGE",
+  "source": "gauge"
+ },
+ {
+  "id": "FT_COMMON_LABEL",
+  "source": "label"
+ },
+ {
+  "id": "FT_COMMON_IMAGE",
+  "source": "image"
+ },
+ {
+  "id": "FT_COMMON_INDICATOR",
+  "source": "status indicator"
+ },
+ {
+  "id": "FT_COMMON_INPUT",
+  "source": "input"
+ },
+ {
+  "id": "FT_COMMON_SWITCH",
+  "source": "switch"
+ },
+ {
+  "id": "FT_COMMON_ALL",
+  "source": "all"
+ },
+ {
+  "id": "FT_COMMON_WHITE_VALUE",
+  "source": "White value"
+ },
+ {
+  "id": "FT_COMMON_COLOR",
+  "source": "color"
+ },
+ {
+  "id": "FT_COMMON_COLOR_RED",
+  "source": "red"
+ },
+ {
+  "id": "FT_COMMON_COLOR_YELLOW",
+  "source": "yellow"
+ },
+ {
+  "id": "FT_COMMON_COLOR_GREEN",
+  "source": "green"
+ },
+ {
+  "id": "FT_COMMON_COLOR_BLUE",
+  "source": "blue"
+ },
+ {
+  "id": "FT_COMMON_COLOR_WHITE",
+  "source": " white"
+ },
+ {
+  "id": "FT_COMMON_COLOR_BLACK",
+  "source": "black"
+ },
+ {
+  "id": "FT_COMMON_UNKNOWN",
+  "source": "undefined"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_LABEL_TITLE",
+  "source": "%1 set label %2 text %3"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_LABEL_TOOLTIP",
+  "source": "Set a specified text to the label."
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_IMAGE_TITLE",
+  "source": "%1 set image %2 base64 image %3"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_IMAGE_TOOLTIP",
+  "source": "Set a base64 image (e.g. from usb camera) to the remote control."
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_CHART_TITLE",
+  "source": "%1 set chart %2 x: %3 y: %4"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_CHART_TOOLTIP",
+  "source": "Set a specified value to the chart."
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_INDICATOR_TITLE",
+  "source": "%1 set status indicator %2 active %3"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SET_INDICATOR_TOOLTIP",
+  "source": "Set active of status indicator to true or false"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_BUTTON_ON_CLICK_TITLE",
+  "source": "%1 on button %2 clicked: event %3 %4"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_BUTTON_ON_CLICK_TOOLTIP",
+  "source": "The event occurs when the button clicked."
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SLIDER_ON_MOVE_TITLE",
+  "source": "%1 on slider %2 moved: event %3 %4"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_SLIDER_ON_MOVE_TOOLTIP",
+  "source": "The event occurs when the slider moved."
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_JOYSTICK_ON_MOVE_TITLE",
+  "source": "%1 on joystick %2 moved: event %3 %4"
+ },
+ {
+  "id": "FT_REMOTE_CONTROL_JOYSTICK_ON_MOVE_TOOLTIP",
+  "source": "The event occurs when the joystick moved."
+ },
+ {
+  "id": "FT_NEURAL_NETWORK_EXECUTE_TITLE",
+  "source": "execute NN with inputs"
+ },
+ {
+  "id": "FT_NEURAL_NETWORK_EXECUTE_TOOLTIP",
+  "source": "Return outputs"
+ },
+ {
+  "id": "FT_NEURAL_NETWORK_GET_VALUES_TITLE",
+  "source": "get intermediate NN values"
+ },
+ {
+  "id": "FT_NEURAL_NETWORK_GET_VALUES_TOOLTIP",
+  "source": "Return all outputs of NN activations"
+ },
+ {
+  "id": "CUSTOM_PATH",
+  "source": "Path"
+ },
+ {
+  "id": "LOGIC_NULL",
+  "source": "None"
+ },
+ {
+  "id": "LOGIC_NULL_TOOLTIP",
+  "source": "Returns none."
+ },
+ {
+  "id": "PROCEDURES_DEFNORETURN_TITLE",
+  "source": "define"
+ },
+ {
+  "id": "PROCEDURES_DEFRETURN_TITLE",
+  "source": "define"
+ },
+ {
+  "id": "MATH_CHANGE_TITLE",
+  "source": "change %1 by %2"
+ },
+ {
+  "id": "MATH_SINGLE_SQUARE",
+  "source": "square"
+ },
+ {
+  "id": "MATH_SINGLE_TOOLTIP_SQUARE",
+  "source": "Square a number."
+ },
+ {
+  "id": "MATH_NUMBER_PROPERTY_IS_NAN",
+  "source": "is not a number"
+ },
+ {
+  "id": "MATH_CONVERT_TO_BIN",
+  "source": "to bin"
+ },
+ {
+  "id": "MATH_CONVERT_TO_HEX",
+  "source": "to hex"
+ },
+ {
+  "id": "MATH_CONVERT_TO_INT",
+  "source": "to int"
+ },
+ {
+  "id": "MATH_CONVERT_TO_DEGREE",
+  "source": "to degree"
+ },
+ {
+  "id": "MATH_CONVERT_TO_RADIANS",
+  "source": "to radians"
+ },
+ {
+  "id": "MATH_CONVERT_BASE",
+  "source": "base"
+ },
+ {
+  "id": "MATH_CONVERT_TOOLTIP",
+  "source": "Convert number to given base."
+ },
+ {
+  "id": "MATH_ARITHMETIC_TOOLTIP_LEFT_SHIFT",
+  "source": "Shift left by pushing zeros in from the right and let the leftmost bits fall off."
+ }
+]

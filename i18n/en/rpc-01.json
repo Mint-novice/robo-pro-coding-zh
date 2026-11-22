@@ -1,0 +1,434 @@
+[
+ {
+  "id": "globalBack",
+  "source": "Back"
+ },
+ {
+  "id": "globalCancel",
+  "source": "Cancel"
+ },
+ {
+  "id": "globalNext",
+  "source": "Next"
+ },
+ {
+  "id": "connectController",
+  "source": "Connect controller"
+ },
+ {
+  "id": "globalOk",
+  "source": "Ok"
+ },
+ {
+  "id": "globalConfirm",
+  "source": "Confirm"
+ },
+ {
+  "id": "controller",
+  "source": "Controller"
+ },
+ {
+  "id": "globalAdd",
+  "source": "Add"
+ },
+ {
+  "id": "globalName",
+  "source": "Name"
+ },
+ {
+  "id": "globalApply",
+  "source": "Apply"
+ },
+ {
+  "id": "globalCopy",
+  "source": "Copy"
+ },
+ {
+  "id": "globalChange",
+  "source": "Change"
+ },
+ {
+  "id": "globalError",
+  "source": "Error"
+ },
+ {
+  "id": "globalUnknownError",
+  "source": "An unknown error occurred."
+ },
+ {
+  "id": "globalReset",
+  "source": "Reset"
+ },
+ {
+  "id": "globalResolution",
+  "source": "Resolution"
+ },
+ {
+  "id": "globalPrevious",
+  "source": "Previous"
+ },
+ {
+  "id": "globalCreate",
+  "source": "Create"
+ },
+ {
+  "id": "globalClose",
+  "source": "Close"
+ },
+ {
+  "id": "globalContinue",
+  "source": "Continue"
+ },
+ {
+  "id": "globalDelete",
+  "source": "Delete"
+ },
+ {
+  "id": "globalRestart",
+  "source": "Restart"
+ },
+ {
+  "id": "globalEdit",
+  "source": "Edit"
+ },
+ {
+  "id": "globalZoomIn",
+  "source": "Zoom in"
+ },
+ {
+  "id": "globalZoomOut",
+  "source": "Zoom out"
+ },
+ {
+  "id": "globalUndo",
+  "source": "Undo"
+ },
+ {
+  "id": "globalRedo",
+  "source": "Redo"
+ },
+ {
+  "id": "globalCenter",
+  "source": "Center"
+ },
+ {
+  "id": "globalPrint",
+  "source": "Print"
+ },
+ {
+  "id": "globalSize",
+  "source": "Size"
+ },
+ {
+  "id": "globalWidth",
+  "source": "Width"
+ },
+ {
+  "id": "globalHeight",
+  "source": "Height"
+ },
+ {
+  "id": "globalPosition",
+  "source": "Position"
+ },
+ {
+  "id": "globalIdentity",
+  "source": "Identity"
+ },
+ {
+  "id": "globalText",
+  "source": "Text"
+ },
+ {
+  "id": "globalEnabled",
+  "source": "Enabled"
+ },
+ {
+  "id": "globalChecked",
+  "source": "Checked"
+ },
+ {
+  "id": "globalActive",
+  "source": "Active"
+ },
+ {
+  "id": "globalColor",
+  "source": "Color"
+ },
+ {
+  "id": "globalOrientation",
+  "source": "Orientation"
+ },
+ {
+  "id": "globalFrom",
+  "source": "From"
+ },
+ {
+  "id": "globalTo",
+  "source": "To"
+ },
+ {
+  "id": "globalValue",
+  "source": "Value"
+ },
+ {
+  "id": "globalRename",
+  "source": "Rename"
+ },
+ {
+  "id": "globalView",
+  "source": "View"
+ },
+ {
+  "id": "globalProject",
+  "source": "Project"
+ },
+ {
+  "id": "globalCaution",
+  "source": "Caution"
+ },
+ {
+  "id": "globalMotion",
+  "source": "Motion"
+ },
+ {
+  "id": "globalTolerance",
+  "source": "Tolerance"
+ },
+ {
+  "id": "globalDegree",
+  "source": "degree"
+ },
+ {
+  "id": "globalContrast",
+  "source": "Contrast"
+ },
+ {
+  "id": "globalCount",
+  "source": "Count"
+ },
+ {
+  "id": "globalRange",
+  "source": "Range"
+ },
+ {
+  "id": "globalMinimum",
+  "source": "Minimum"
+ },
+ {
+  "id": "globalMaximum",
+  "source": "Maximum"
+ },
+ {
+  "id": "globalStart",
+  "source": "Start"
+ },
+ {
+  "id": "globalEnd",
+  "source": "End"
+ },
+ {
+  "id": "globalStepOver",
+  "source": "Step over"
+ },
+ {
+  "id": "globalStepInto",
+  "source": "Step into"
+ },
+ {
+  "id": "globalStepOut",
+  "source": "Step out"
+ },
+ {
+  "id": "globalImage",
+  "source": "Image"
+ },
+ {
+  "id": "globalDiameter",
+  "source": "Diameter"
+ },
+ {
+  "id": "globalSettings",
+  "source": "Settings"
+ },
+ {
+  "id": "globalFileName",
+  "source": "Filename"
+ },
+ {
+  "id": "globalImport",
+  "source": "Import"
+ },
+ {
+  "id": "globalExport",
+  "source": "Export"
+ },
+ {
+  "id": "globalSelectAll",
+  "source": "select all"
+ },
+ {
+  "id": "waitProjectLoad",
+  "source": "Project loading ..."
+ },
+ {
+  "id": "waitProjectSave",
+  "source": "Project will be saved ..."
+ },
+ {
+  "id": "fontSize",
+  "source": "Font size"
+ },
+ {
+  "id": "fontStyle",
+  "source": "Font Style"
+ },
+ {
+  "id": "colorBlack",
+  "source": "Black"
+ },
+ {
+  "id": "colorWhite",
+  "source": "White"
+ },
+ {
+  "id": "hideSidebar",
+  "source": "Hide Side bar"
+ },
+ {
+  "id": "hideTopbar",
+  "source": "Hide Top bar"
+ },
+ {
+  "id": "showSidebar",
+  "source": "Show Side bar"
+ },
+ {
+  "id": "showTopbar",
+  "source": "Show Top bar"
+ },
+ {
+  "id": "toogleWindowLeft",
+  "source": "Hide or show the left window"
+ },
+ {
+  "id": "toogleWindowRight",
+  "source": "Hide or show the right window"
+ },
+ {
+  "id": "toogleWindowBottom",
+  "source": "Hide or show the bottom window"
+ },
+ {
+  "id": "moveToForeground",
+  "source": "Move to front"
+ },
+ {
+  "id": "moveToBackground",
+  "source": "Move to back"
+ },
+ {
+  "id": "moveOneLayerUp",
+  "source": "Move one layer up"
+ },
+ {
+  "id": "moveOneLayerDown",
+  "source": "Move one layer down"
+ },
+ {
+  "id": "breakpoints",
+  "source": "Breakpoints"
+ },
+ {
+  "id": "expressions",
+  "source": "Expressions"
+ },
+ {
+  "id": "callstack",
+  "source": "Callstack"
+ },
+ {
+  "id": "console",
+  "source": "Console"
+ },
+ {
+  "id": "camera",
+  "source": "Camera"
+ },
+ {
+  "id": "code",
+  "source": "Code"
+ },
+ {
+  "id": "layers",
+  "source": "Layers"
+ },
+ {
+  "id": "inspector",
+  "source": "Inspector"
+ },
+ {
+  "id": "importLibs",
+  "source": "Import files from other projects"
+ },
+ {
+  "id": "importLibsSelectProject",
+  "source": "Select a local project from which you want to import files."
+ },
+ {
+  "id": "importLibsSelectFiles",
+  "source": "Select the files you want to import into your project."
+ },
+ {
+  "id": "importLibsError",
+  "source": "The selected project cannot be loaded."
+ },
+ {
+  "id": "importLibsErrorWrongMode",
+  "source": "The selected project is not compatible."
+ },
+ {
+  "id": "importLibsErrorNoFiles",
+  "source": "The selected project has no files to import."
+ },
+ {
+  "id": "importLibsInfoWrongController",
+  "source": "Attention: The selected project was created for a different controller."
+ },
+ {
+  "id": "cameraSelectedColor",
+  "source": "Selected color"
+ },
+ {
+  "id": "cameraSelectedColorHint",
+  "source": "Choose the position where to insert the selected color."
+ },
+ {
+  "id": "cameraSettings",
+  "source": "Camera settings"
+ },
+ {
+  "id": "cameraName",
+  "source": "Camera Object"
+ },
+ {
+  "id": "cameraRotateImage",
+  "source": "Rotate image 180 degrees"
+ },
+ {
+  "id": "cameraInvalidPythonVariable",
+  "source": "Invalid python variable"
+ },
+ {
+  "id": "selectLearningLevels",
+  "source": "Select learning level"
+ },
+ {
+  "id": "beginner",
+  "source": "Beginner"
+ },
+ {
+  "id": "beginnerSub",
+  "source": "Basic blocks"
+ }
+]

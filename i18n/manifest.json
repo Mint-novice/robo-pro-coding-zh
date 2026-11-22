@@ -1,0 +1,71 @@
+{
+  "software": "ROBO Pro Coding",
+  "publisher": "fischertechnik / beemo GmbH",
+  "version": "6.5.4",
+  "package": "beemo.ROBOProCoding_6.5.4.0_x64__1fkxabkbxp2f6",
+  "sourceBundles": [
+    "client/www/assets/npx-robo-pro-coding/i18n/messages.en.xlf",
+    "client/www/assets/npx-controller/i18n/messages.en.xlf",
+    "client/www/assets/ngx-codemirror/i18n/messages.en.xlf"
+  ],
+  "bundles": {
+    "robo-pro-coding": {
+      "units": 861,
+      "files": {
+        "rpc-01.zh.json": {
+          "entries": 108,
+          "sha256": "41b21fdd4742c17ccae4013591b91ed4797a6be047c15009ee969fa9e806f70b"
+        },
+        "rpc-02.zh.json": {
+          "entries": 108,
+          "sha256": "ca1c0884e8ea765e1dfb7828fb735a942ffd24930ae47605370a9a9b5150079a"
+        },
+        "rpc-03.zh.json": {
+          "entries": 108,
+          "sha256": "f6227319c467cd0f7066f2f54f581216a5cdb03ed31f33672366a0b3532963cc"
+        },
+        "rpc-04.zh.json": {
+          "entries": 108,
+          "sha256": "1da4bd0d87f115afe0d5ae09fc1c63d9d61ce7d707cf4bfe18addf9654b24239"
+        },
+        "rpc-05.zh.json": {
+          "entries": 108,
+          "sha256": "13260dcd725d56f9dd2b7fb7f5408ce68ac23c0de8a52aa7c65b558d5a5edf41"
+        },
+        "rpc-06.zh.json": {
+          "entries": 108,
+          "sha256": "5ab597ec62300d384a55434510266a8e0836aad68754bb02b44af0b633762dc5"
+        },
+        "rpc-07.zh.json": {
+          "entries": 108,
+          "sha256": "b9d27789cc947e86252be9b761ec69867a1dee0edf610bbaeac92e6023cfc3bc"
+        },
+        "rpc-08.zh.json": {
+          "entries": 105,
+          "sha256": "28509b9a61a85a53791da70efdf9dafe6a2e3fb0990d5c4ca1811ac41217f410"
+        }
+      }
+    },
+    "npx-controller": {
+      "units": 128,
+      "files": {
+        "ctrl-01.zh.json": {
+          "entries": 128,
+          "sha256": "c5059b3d015e1bccb6b497ac1bac9b12be01040d8e9c4bdcb31c7a3221c3914e"
+        }
+      }
+    },
+    "ngx-codemirror": {
+      "units": 28,
+      "files": {
+        "cm-01.zh.json": {
+          "entries": 28,
+          "sha256": "73c74badf3e15e47ed6261192f21109dd334e65c9333220c3b0059ec697b9353"
+        }
+      }
+    }
+  },
+  "total": 1017,
+  "englishStringsWithRichTags": 17,
+  "englishStringsWithPlaceholders": 163
+}
